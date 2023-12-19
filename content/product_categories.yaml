@@ -1,0 +1,193 @@
+
+  - id: "946a-df55-dcbd"
+    web:
+      metaDescription: "Heading to the city this weekend? The best choice for flat rate discounted parking. Secure Parking has car parks across all major cities in Australia."
+      metaTitle: "Weekend Parking"
+      metaLinkText: "Weekend Parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 795
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/weekend.svg"
+      description: "Heading to the city this weekend?"
+      external_link: null
+      link_to_page: "27a2-9d0f-6186"
+      product_category: "general_link"
+      sort_order: 6
+      title: "Weekend"
+  - id: "3ed5-674a-cfe7"
+    web:
+      metaDescription: "The best choice for short-stays or last minute parking. Secure Parking has car parks across all major cities in Australia."
+      metaTitle: "Hourly Parking"
+      metaLinkText: "Hourly Parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 304
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/hourly.svg"
+      description: "The best choice for short-stays or last minute parking"
+      external_link: null
+      link_to_page: "7597-2374-ed31"
+      product_category: "hourly"
+      sort_order: 5
+      title: "Hourly"
+  - id: "f0e0-e897-ef13"
+    web:
+      metaDescription: "Cheaper all-day parking for workers with conditional entry and exit. Secure Parking has convenient parking in all major cities across Australia."
+      metaTitle: "Early Bird Parking"
+      metaLinkText: "Early Bird Parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 797
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/earlybird.svg"
+      description: "Cheaper all-day parking for workers with conditional entry and exit"
+      external_link: null
+      link_to_page: "f59e-180b-3a2e"
+      product_category: "earlybird"
+      sort_order: 1
+      title: "Early Bird"
+  - id: "7f40-8941-318f"
+    web:
+      metaDescription: "Save with off peak evening and overnight parking. Secure Parking has convenient parking in all major cities across Australia."
+      metaTitle: "Night Parking"
+      metaLinkText: "Night Parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 305
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/night.svg"
+      description: "Save with off peak evening and overnight parking"
+      external_link: null
+      link_to_page: "2a5d-0907-ed7e"
+      product_category: "hourly"
+      sort_order: 7
+      title: "Night"
+  - id: "0f16-6f7f-422a"
+    web:
+      metaDescription: "Consecutive day parking with multiple entry and exits from the car park. Secure Parking has convenient parking in all major cities across Australia."
+      metaTitle: "Multi-Day Parking"
+      metaLinkText: "Multi-Day Parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 796
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/multiday.svg"
+      description: "Consecutive day parking with multiple entry and exits from the car park"
+      external_link: null
+      link_to_page: "c082-0879-98da"
+      product_category: "multi_day"
+      sort_order: 2
+      title: "Multi Day"
+  - id: "930a-70ab-bcc0"
+    web:
+      metaDescription: "Save on all day parking, including Early Bird and Weekend Parking. Secure Parking has convenient parking in all major cities across Australia."
+      metaTitle: "Daily"
+      metaLinkText: "Daily"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 306
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/daily.svg"
+      description: "Save on all day parking, including Early Bird and Weekend Parking"
+      external_link: null
+      link_to_page: "f59e-180b-3a2e"
+      product_category: "daily"
+      sort_order: 1
+      title: "Daily"
+  - id: "36c3-2f94-cf52"
+    web:
+      metaDescription: ""
+      metaTitle: "Flexi Parking"
+      metaLinkText: "Flexi Parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 494
+      listed: true
+    data:
+      category_icon: "https://d1dxkf4q.media.zestyio.com/flexi.svg"
+      description: "Pre-pay and use any time with Flexi Parking Vouchers in packs of 10 or more. Buy now and lock in a rate"
+      external_link: null
+      link_to_page: "8ec0-1fd8-1458"
+      product_category: "general_link"
+      sort_order: 3
+      title: "Flexi"
+  - id: "6b55-cd3b-0ce9"
+    web:
+      metaDescription: ""
+      metaTitle: "Multi-Day"
+      metaLinkText: "Multi-Day"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 303
+      listed: true
+    data:
+      category_icon: "https://tzmhv269.media.zestyio.com/MultiDay.svg"
+      description: "Longer term parking deals available when you rent a bay"
+      external_link: null
+      link_to_page: "8e92-1b4b-f587"
+      product_category: "general_link"
+      sort_order: 4
+      title: "Monthly"

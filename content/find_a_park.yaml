@@ -1,0 +1,19 @@
+
+  - id: "95ee-86d9-5815"
+    web:
+      metaDescription: "Secure Parking provides convenient and secure car park solutions in Australia. Find a car park near you and enjoy hassle-free parking here."
+      metaTitle: "Search Results"
+      metaLinkText: "Car Parks"
+      metaKeywords: null
+      pathPart: "car-parks"
+      path: "/en-au/car-parks/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/"
+    meta:
+      sort: 295
+      listed: true
+    data:
+      title: "Car Park Search Results"

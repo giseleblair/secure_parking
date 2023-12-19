@@ -1,0 +1,67 @@
+
+  - id: "c2c3-615a-4af5"
+    web:
+      metaDescription: ""
+      metaTitle: "SOLD OUT on date or time selected"
+      metaLinkText: "SOLD OUT on date or time selected"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 29193
+      listed: true
+    data:
+      background_colour: "#faa42f"
+      max: -60
+      messagetext: "Sold Out Today"
+      min: -1
+      text_colour: "#0756a4"
+  - id: "e81c-4016-e819"
+    web:
+      metaDescription: ""
+      metaTitle: "Bays available"
+      metaLinkText: "Bays available"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 13721
+      listed: true
+    data:
+      background_colour: "#ffffff"
+      max: 100
+      messagetext: "Bays available"
+      min: 40
+      text_colour: "#0093d0"
+  - id: "f975-7fec-b159"
+    web:
+      metaDescription: "Selling fast limited number of parking bays remaining at this car park "
+      metaTitle: "Selling Fast"
+      metaLinkText: "Selling Fast"
+      metaKeywords: "car park, parking, bays,"
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 316
+      listed: true
+    data:
+      background_colour: "#ffffff"
+      max: 40
+      messagetext: "Selling fast"
+      min: 10
+      text_colour: "#c11a23"

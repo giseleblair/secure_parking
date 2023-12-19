@@ -1,0 +1,41 @@
+
+  - id: "8062-ed97-81c6"
+    web:
+      metaDescription: "Find parking nearby or cheaper parking online or on app. With more than 450 Secure Parking car parks throughout Australia & New Zealand."
+      metaTitle: "Secure Parking, Car Parks, Long Term, All Day, and Metro City Parking, Car Park Info, Pay Online App, Cheap Parking Spaces for Rent or Lease"
+      metaLinkText: "Homepage"
+      metaKeywords: null
+      pathPart: "en-au"
+      path: "/en-au/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      content: "<div>\n<h2>Parking solutions</h2>\n<p><a title=\"Even more ways to park\" href=\"/en-au/parking-solutions\">Even more ways to park</a></p>\n<p>Secure Parking has parking spaces available for rent, lease or to buy online in Sydney, Melbourne, Brisbane, Auckland, Perth, Adelaide, Canberra and the Gold Coast.</p>\n</div>"
+      events_cta: "992f-c318-6e30"
+      events_cta_text: "Click for what's on "
+      events_description: "Secure Parking has ideal car parks offering cheap night and weekend parking rates near to all your favourite restaurants, cinemas and shopping precincts. If you are looking for concerts and sports event parking close to at the major stadiums including Suncorp, The Gabba and Marvel and CommBank Stadium in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra and on the Gold Coast we have parking for these events too."
+      events_title: "Upcoming Events"
+      featured_item_cta: "f59e-180b-3a2e"
+      featured_item_cta_text: "Learn more"
+      featured_item_description: "Leave whenever you want to with NEW flexible Early Bird Parking.​ Perfect for shorter days coming into the holidays ​as you can leave later after work functions or do some last-minute shopping.​ Plus save when you pay online​. Grab your upgraded Early Bird Parking online now"
+      featured_item_image: "https://d1dxkf4q.media.zestyio.com/christmas-early-bird-landing.png"
+      featured_item_title: "Regular parking made easy."
+      featured_item_type: ""
+      image: "https://d1dxkf4q.media.zestyio.com/logo-marketing.svg"
+      offers_cta: "992f-c318-6e30"
+      offers_cta_text: "Click for deals"
+      offers_description: "Secure Parking has the best parking rates in the CBD and to suit commuters in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra and the Gold Coast. Long term parking, short term and multi-day parking plus Flexi Voucher deals. "
+      offers_title: "Parking Offers"
+      product_cta_text: "Click to discover more"
+      product_more_cta: "34ff-2821-8f83"
+      products_description: "Secure Parking has parking spaces available for rent, to lease or book online in Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra and on the Gold Coast."
+      products_title: "Parking Solutions"
+      related_home_events: "26ab-4a59-7898,77c7-ff55-ccfa,6673-00e3-1221,c455-c6a7-2527"
+      related_home_offers: "2170-c3bb-283f,b4d0-a971-9040,e5d4-6f42-eda5,17d1-1ea8-0f71"
+      title: "Homepage"

@@ -1,0 +1,39 @@
+
+  - id: "ade2-8637-1c33"
+    web:
+      metaDescription: ""
+      metaTitle: "Notifications"
+      metaLinkText: "Notifications"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 299
+      listed: true
+    data:
+      title: "Notifications"
+      user_prefs: "34a9-0f93-9f42,bb6e-77d1-b565"
+  - id: "a03b-2108-59aa"
+    web:
+      metaDescription: ""
+      metaTitle: "Preferences"
+      metaLinkText: "Preferences"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 300
+      listed: true
+    data:
+      title: "Preferences"
+      user_prefs: "e8e9-f78f-81a4"

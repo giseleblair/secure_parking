@@ -1,0 +1,18 @@
+
+  - id: "2ced-4259-85f8"
+    web:
+      metaDescription: "Cards"
+      metaTitle: "Cards"
+      metaLinkText: "Cards"
+      metaKeywords: null
+      pathPart: "add-card"
+      path: "/en-au/account/add-card/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/account/"
+    meta:
+      sort: 315
+      listed: true
+    data: {}

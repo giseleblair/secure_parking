@@ -1,0 +1,73 @@
+
+  - id: "c87c-5032-28c0"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      data: "facebook.com,plus.url.google.com,twitter.com,yelp.com"
+      direction: null
+      header: "Analytics"
+      position: 1
+      set_zuid: null
+      type: "analytics"
+      widget_size: "full"
+  - id: "199e-c25b-1901"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      data: "https://blog.zesty.io/release_log-feed.rss"
+      direction: "ASC"
+      header: "Zesty.io Update Log"
+      position: 3
+      set_zuid: null
+      type: "feed"
+      widget_size: "half"
+  - id: "5b3c-4560-c63a"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      data: "z:history"
+      direction: "DESC"
+      header: "Recently Updated"
+      position: 2
+      set_zuid: null
+      type: "set_view"
+      widget_size: "half"

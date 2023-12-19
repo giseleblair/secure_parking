@@ -1,0 +1,26 @@
+
+  - id: "3c9e-180f-9554"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      ai_instrumentationkey: "ac81a065-6fee-4be5-9410-7a9feafb7d07"
+      footer_text: "© YEAR Copyright Secure Parking Pty Ltd"
+      gtag_id: "G-S7DJDYF5SK"
+      gtm_id: "GTM-TM4ZXKK"
+      logo: "https://tzmhv269.media.zestyio.com/logo-marketing.svg"
+      parking_terms: "Prices include GST<br />Additional charges may be incurred if you stay in a car park beyond your exit time.<br />\nCar Parks may be unavailable due to unforeseen circumstances. We may direct you to another car park or refund your Parking Fee if your selected car park is unavailable at your entry time.<br /><a href=\"/\">Full terms and conditions.</a>"
+      phone: "+61280008790"
+      site_name: "Secure Parking"

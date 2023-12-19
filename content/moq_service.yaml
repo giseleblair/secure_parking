@@ -1,0 +1,397 @@
+
+  - id: "3f0b-e375-9212"
+    web:
+      metaDescription: ""
+      metaTitle: "Multi-Day Overnight Parking"
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 20119
+      listed: true
+    data:
+      description: "Consecutive day parking with multiple entry and exits from the car park"
+      display_name: null
+      moqid: "61a9ceb7-204a-47d5-8135-b0110057f03a"
+      name: "Multi-Day Overnight Parking"
+      sort: null
+  - id: "aab1-70b3-25c5"
+    web:
+      metaDescription: ""
+      metaTitle: "Night Parking"
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: null
+      listed: true
+    data:
+      description: "Evening Parking is available at this car park"
+      display_name: null
+      moqid: "6b9838a7-c9ac-4ab0-bfdd-aebf00b91a75"
+      name: "Night Parking"
+      sort: null
+  - id: "7794-9f40-b2a6"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Concession Parking is available at this car park"
+      display_name: null
+      moqid: "341f7188-3476-47d2-9fb3-af170070bf39"
+      name: "Concession Parking"
+      sort: null
+  - id: "e8ff-101e-eab0"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Mechanic Services are available at this car park"
+      display_name: null
+      moqid: "4363b746-2a70-44ad-b3dc-aebf00b96927"
+      name: "Mechanic Services"
+      sort: null
+  - id: "d4df-392a-3343"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "This car park is 24 hours"
+      display_name: null
+      moqid: "6f9f9667-3f9f-49dc-9091-aebf00b749c8"
+      name: "24 hours"
+      sort: null
+  - id: "1208-95bc-fdaa"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "4WD Parking is available at this car park"
+      display_name: null
+      moqid: "0fe66aa9-867b-4fbc-9b2a-aebf00b75f5d"
+      name: "4WD Parking"
+      sort: null
+  - id: "2972-93ca-b4bd"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Advantage Parker is available at this car park"
+      display_name: null
+      moqid: "2a9589f4-8a60-48b3-9f75-aeeb00144e32"
+      name: "Advantage Parker"
+      sort: null
+  - id: "e665-0d95-01a8"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Bicycle Parking is available at this car park"
+      display_name: null
+      moqid: "c6c96bbc-6f9c-4ef2-85b2-aebf00b77957"
+      name: "Bicycle Parking"
+      sort: null
+  - id: "4781-0940-a328"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Car Wash Services are available at this car park"
+      display_name: null
+      moqid: "0ce2cdde-0492-47c4-98a6-aebf00b795f8"
+      name: "Car Wash Services"
+      sort: null
+  - id: "3d49-ec16-7cec"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Disability Access is available at this car park"
+      display_name: null
+      moqid: "a6795eac-cce6-44cf-9f5c-aebf00b7a2de"
+      name: "Disability Access"
+      sort: null
+  - id: "8fae-3950-3b81"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Electric Vehicle Charging is available at this car park"
+      display_name: null
+      moqid: "ec816f50-f404-4871-a0ca-aebf00b8ef86"
+      name: "Electric Vehicle Charging"
+      sort: null
+  - id: "eee2-a001-7e20"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Early Bird Parking is available at this car park"
+      display_name: null
+      moqid: "9e02fcd1-4286-410c-9f26-aebf00b8c0e3"
+      name: "Early Bird Parking"
+      sort: null
+  - id: "a99e-8450-211b"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Event Parking is available at this car park"
+      display_name: null
+      moqid: "b74f65fc-9376-437f-bea1-aebf00b94968"
+      name: "Event Parking"
+      sort: null
+  - id: "1728-263b-7d98"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Monthly Parking is available at this car park"
+      display_name: null
+      moqid: "beb307f1-1524-4cec-a159-aebf00b9c571"
+      name: "Monthly Parking"
+      sort: null
+  - id: "92c3-9b7a-7d1f"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Motorcycle Parking is available at this car park"
+      display_name: null
+      moqid: "d3622b9c-e86d-474f-8789-aebf00b9d98c"
+      name: "Motorcycle Parking"
+      sort: null
+  - id: "6cf8-be71-a2d3"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "There is Shopping Nearby"
+      display_name: null
+      moqid: "62032c9b-d1ef-4943-99fd-aebf00b9fb9e"
+      name: "Shopping Nearby"
+      sort: null
+  - id: "3fd4-a615-fed6"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Valet Parking is available at this car park"
+      display_name: null
+      moqid: "6a50045f-7a8c-4642-83a4-aebf00ba0f0c"
+      name: "Valet Parking"
+      sort: null
+  - id: "997a-4f1c-7db9"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "Weekend Parking is available at this car park"
+      display_name: null
+      moqid: "1514f9eb-a5a7-4060-9422-aebf00ba1d17"
+      name: "Weekend Parking"
+      sort: null

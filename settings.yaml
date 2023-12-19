@@ -1,0 +1,487 @@
+
+  - category: "general"
+    key: "robots_on"
+    keyFriendly: "Search Engine Crawlable?"
+    value: "1"
+    admin: false
+    parsleyAccess: false
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "Search engines will have permission to index each page of your site allowing for greater visibility"
+  - category: "general"
+    key: "site_protocol"
+    keyFriendly: "HTTPS on?"
+    value: "https"
+    admin: false
+    parsleyAccess: false
+    dataType: "checkbox"
+    options: "http,https"
+    tips: "If your site has an SSL certificate then contact info@gozesty.com about secure hosting"
+  - category: "general"
+    key: "always_redirect_to_https"
+    keyFriendly: "Always redirect to HTTPS"
+    value: "1"
+    admin: false
+    parsleyAccess: false
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "This will redirect any http requests to https (if https is on)."
+  - category: "general"
+    key: "preferred_domain_prefix"
+    keyFriendly: "Always prepend WWW to my domain?"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: null
+  - category: "general"
+    key: "show_in_title"
+    keyFriendly: "Show site name in meta title?"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "Appends your site name, located in Clippings dataset, to the title tag"
+  - category: "developer"
+    key: "parsley_debugger"
+    keyFriendly: "Use Parsley Debugger"
+    value: "0"
+    admin: false
+    parsleyAccess: true
+    dataType: "checkbox"
+    options: "1,2"
+    tips: "Option to how and when the debugger should be presented*|*Parsley Debugger"
+  - category: "developer"
+    key: "tips"
+    keyFriendly: "Show Zesty Tips?"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "Choose to turns Zesty Tips on of off*|*Zesty Tips"
+  - category: "developer"
+    key: "basic_content_api_enabled"
+    keyFriendly: "Access to Basic JSON API for content."
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: ""
+  - category: "developer"
+    key: "basic_content_api_cors_allow_any_origin"
+    keyFriendly: "Allow cross domain access to Basic JSON API"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "Toggle CORS Headers"
+  - category: "developer"
+    key: "auto_include_js_in_head"
+    keyFriendly: "Automatically include JavaScript in head"
+    value: "0"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: ""
+  - category: "developer"
+    key: "ajax_cors_allow_any_origin"
+    keyFriendly: "Custom View Endpoints Â» CORS Allow Any Origin"
+    value: "1"
+    admin: false
+    parsleyAccess: true
+    dataType: "checkbox"
+    options: "0,1"
+    tips: ""
+  - category: "contact-form"
+    key: "sending_email"
+    keyFriendly: "Sending Email"
+    value: "Sarah.Wood@ping-works.com.au"
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: null
+  - category: "contact-form"
+    key: "recipients"
+    keyFriendly: "Email Recipients"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: null
+  - category: "contact-form"
+    key: "reply_email"
+    keyFriendly: "Reply Email"
+    value: "Sarah.Wood@ping-works.com.au"
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: null
+  - category: "verification"
+    key: "keybase"
+    keyFriendly: "Keybase Filename"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: null
+  - category: "verification"
+    key: "keybase_key"
+    keyFriendly: "Keybase Value"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: null
+  - category: "seo"
+    key: "feed_xml_set_override_zid"
+    keyFriendly: "Content Set ID override for /feed.xml"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: null
+  - category: "tag_managers"
+    key: "gtm_id"
+    keyFriendly: "Google Tag Manager ID"
+    value: "GTM-TM4ZXKK"
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Typically in the format: GTM-XXXXXXX. This will auto inject scripts into the head and body for you on the live production website."
+  - category: "analytics"
+    key: "google_urchin_id"
+    keyFriendly: "Google Urchin ID"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "It is a unique code that Google Analytics gives you to track your website hits. This is required for Zesty to track hits to your website.*|*What is an Urchin ID?"
+  - category: "analytics"
+    key: "google_profile_id"
+    keyFriendly: "Google Profile ID"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "The main account created with google analytics is tied to a unique profile ID. This is necessary for Zesty to pull data and show your analytics.*|*Google Profile ID"
+  - category: "analytics"
+    key: "universal_code"
+    keyFriendly: "Use Google Universal Code"
+    value: "0"
+    admin: null
+    parsleyAccess: true
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "The new version of Googles tracking code.*|*Google Universal Code"
+  - category: "analytics"
+    key: "display_advertising_support"
+    keyFriendly: "Display Advertising Support"
+    value: "0"
+    admin: null
+    parsleyAccess: true
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "If you turn on Display Advertising, you need to enable Re-marketing with Google Analytics or Google Display Network (GDN) Impression Reporting. With this setting on the Analytics tracking code is updated. Once you have made that change, Google Analytics collects the information it normally does, as well as the DoubleClick cookie when that cookie is present."
+  - category: "twitter"
+    key: "CONSUMER_KEY"
+    keyFriendly: "Consumer Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://dev.twitter.com/apps/new"
+  - category: "twitter"
+    key: "CONSUMER_SECRET"
+    keyFriendly: "Consumer Secret"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://dev.twitter.com/apps/new"
+  - category: "twitter"
+    key: "OAUTH_TOKEN"
+    keyFriendly: "OAuth Token"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://dev.twitter.com/apps/new"
+  - category: "twitter"
+    key: "TOKEN_SECRET"
+    keyFriendly: "Token Secret"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://dev.twitter.com/apps/new"
+  - category: "stripe"
+    key: "LIVE_MODE"
+    keyFriendly: "Store is Live (green if yes)"
+    value: "0"
+    admin: null
+    parsleyAccess: true
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "Toggle test mode for stripe"
+  - category: "stripe"
+    key: "TEST_SECRET_KEY"
+    keyFriendly: "Stripe Private Test Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://stripe.com under account settings"
+  - category: "stripe"
+    key: "LIVE_SECRET_KEY"
+    keyFriendly: "Stripe Private Live Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://stripe.com under account settings"
+  - category: "stripe"
+    key: "TEST_PUBLISH_KEY"
+    keyFriendly: "Stripe Publish Test Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://stripe.com under account settings"
+  - category: "stripe"
+    key: "LIVE_PUBLISH_KEY"
+    keyFriendly: "Stripe Publish Live Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Attain for your domain from https://stripe.com under account settings"
+  - category: "seo"
+    key: "canonical_tags_enabled"
+    keyFriendly: "Enable Canonical Tags"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: ""
+  - category: "security"
+    key: "x_frame_options"
+    keyFriendly: "Header: X-Frame-Options"
+    value: "same-origin"
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: "More info https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options"
+    tips: "Here are some suggestions"
+  - category: "security"
+    key: "strict_transport_security"
+    keyFriendly: "Strict-Transport-Security"
+    value: ""
+    admin: null
+    parsleyAccess: true
+    dataType: "text"
+    options: ""
+    tips: "More info https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security"
+  - category: "security"
+    key: "content_security_policy"
+    keyFriendly: "Content-Security-Policy"
+    value: ""
+    admin: null
+    parsleyAccess: true
+    dataType: "text"
+    options: ""
+    tips: "More info https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"
+  - category: "security"
+    key: "x_content_type_options"
+    keyFriendly: "X-Content-Type-Options"
+    value: "nosniff"
+    admin: null
+    parsleyAccess: true
+    dataType: "text"
+    options: ""
+    tips: "More info https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options"
+  - category: "security"
+    key: "referrer_policy"
+    keyFriendly: "Referrer-Policy"
+    value: "unsafe-url"
+    admin: null
+    parsleyAccess: true
+    dataType: "text"
+    options: ""
+    tips: "More info https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy"
+  - category: "security"
+    key: "feature_policy"
+    keyFriendly: "Feature-Policy"
+    value: ""
+    admin: null
+    parsleyAccess: true
+    dataType: "text"
+    options: ""
+    tips: "More Info https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy"
+  - category: "security"
+    key: "preview_lock_password"
+    keyFriendly: "Preview Lock Password"
+    value: "S3cureP@rking"
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Password used to allow non-authenticated zesty users view this preview"
+  - category: "contact-form"
+    key: "honeypot"
+    keyFriendly: "Form Honey Pot"
+    value: "workemail"
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "If this value is set, all posted forms will look for an input whose name matches the honeypot setting value. If forms are posted without an input whose name matches the honeypot setting value, they will not succeed. If a form is posted containing an input whose name matches the honeypot setting value, and this input has a value, the post will fail. It needs to be submitted with no value to succeed.  Setting a honeypot value affects ALL FORMS IMMEDIATELY."
+  - category: "contact-form"
+    key: "safe_emails"
+    keyFriendly: "Safe Email Send To List"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "CSV of Safe Emails for Email Override"
+  - category: "developer"
+    key: "gql"
+    keyFriendly: "Turns on Access to GraphQL Endpoints to Run an Apollo GQL Server"
+    value: "1"
+    admin: false
+    parsleyAccess: true
+    dataType: "checkbox"
+    options: "0,1"
+    tips: ""
+  - category: "developer"
+    key: "gql_origin"
+    keyFriendly: "GraphQL Allow Origin"
+    value: "*"
+    admin: false
+    parsleyAccess: true
+    dataType: "text"
+    options: ""
+    tips: ""
+  - category: "general"
+    key: "mode"
+    keyFriendly: "WebEngine Mode"
+    value: "hybrid"
+    admin: null
+    parsleyAccess: null
+    dataType: "dropdown"
+    options: "headless:Headless;hybrid:Hybrid;traditional:Traditional"
+    tips: "Headless: routes return JSON, all API are on, and CORS is anywhere. Hybrid: Routes return parsley views with ?toJSON option, all APIs on, cors anywhere. Traditional: Routes return Parlsey views, API and CORS must be turned on."
+  - category: "developer"
+    key: "gql_cors"
+    keyFriendly: "GraphQL Cors"
+    value: "*"
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Cross Origin Request control to restrict requests to the origin specified, * is any"
+  - category: "security"
+    key: "headless_authorization_key"
+    keyFriendly: "Headless Endpoint Authorization Secret Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "When a value is exists, requests to WebEngine gql, instant, and toJSON endpoints will require the header \"Authorization: bearer [Secret Key]\". Cache bust required to activate."
+  - category: "security"
+    key: "authorization_key"
+    keyFriendly: "Full WebEngine Authorization Secret Key"
+    value: ""
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "When a value is exists, ALL requests to WebEngine will require the header \"Authorization: bearer [Secret Key]\" to resolve. Cache bust required to activate."
+  - category: "proxy"
+    key: "live"
+    keyFriendly: "Root URL to proxy file store"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "The key is the branch. Attempts to resolve a file at the the proxy url for live/prod"
+  - category: "proxy"
+    key: "dev"
+    keyFriendly: "Root URL to proxy file store"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "The key is the branch. Attempts to resolve a file at the the proxy url for dev preview"
+  - category: "developer"
+    key: "auto_include_ga_tag"
+    keyFriendly: "Auto Include Google Analytics Tags"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "If GA urchin settings are present, WebEngine will automatically include Google Analytics scripts if this setting is on."
+  - category: "general"
+    key: "add_lang_code_to_paths"
+    keyFriendly: "Add Default Lang-Code to Path"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: null
+  - category: "i18n"
+    key: "default_page"
+    keyFriendly: "Default Language"
+    value: ""
+    admin: false
+    parsleyAccess: null
+    dataType: "text"
+    options: ""
+    tips: "Default i18n page sets <link rel=\"alternate\" href=\"' .$_Z['SETTINGS']['i18n']['default_page'] . '\" hreflang=\"x-default\" />"
+  - category: "analytics"
+    key: "google_property_id"
+    keyFriendly: "Google Property ID"
+    value: "properties/252372292"
+    admin: null
+    parsleyAccess: null
+    dataType: "text"
+    options: null
+    tips: null
+  - category: "seo"
+    key: "sitemap_toggle"
+    keyFriendly: "Sitemap Toogle"
+    value: "1"
+    admin: null
+    parsleyAccess: null
+    dataType: "checkbox"
+    options: "0,1"
+    tips: "Turn on or off the auto generated sitemap.xml file."

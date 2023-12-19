@@ -1,0 +1,35 @@
+
+  - id: "3a97-9977-4309"
+    web:
+      metaDescription: "Secure Parking Car Parks in New Zealand within the South and North Island's. Parking in the cities of Auckland, Wellington, Hamilton and Christchurch."
+      metaTitle: "NewZealand"
+      metaLinkText: "NewZealand"
+      metaKeywords: null
+      pathPart: "nz"
+      path: "/en-au/car-parks/nz/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/"
+    meta:
+      sort: 236
+      listed: true
+    data: {}
+  - id: "02d4-f524-d96c"
+    web:
+      metaDescription: ""
+      metaTitle: "Australia"
+      metaLinkText: "Australia"
+      metaKeywords: null
+      pathPart: "australia"
+      path: "/en-au/car-parks/australia/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/"
+    meta:
+      sort: 235
+      listed: true
+    data: {}

@@ -1,0 +1,26 @@
+
+  - id: "997d-e8b4-227b"
+    web:
+      metaDescription: "Check out the latest news, events and announcements around Secure Parking and the property industry. "
+      metaTitle: "News"
+      metaLinkText: "News"
+      metaKeywords: null
+      pathPart: "news"
+      path: "/en-au/news/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 172
+      listed: true
+    data:
+      featured_article_cta: "4dd7-6f19-48bc"
+      featured_article_cta_text: "Read more"
+      featured_article_description: "Secure Parking's Voyager car park management ecosystem revolutionises the aesthetic of your car park. "
+      featured_article_image: "https://d1dxkf4q.media.zestyio.com/new-customer.png"
+      featured_article_title: "The future of parking is here"
+      show: 3
+      show_featured_article: 1
+      title: "Secure News & Press"

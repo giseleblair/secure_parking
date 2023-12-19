@@ -1,0 +1,20 @@
+
+  - id: "8888-60df-8273"
+    web:
+      metaDescription: ""
+      metaTitle: "Where are you going?"
+      metaLinkText: "Where are you going?"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 293
+      listed: true
+    data:
+      banner_img: "https://d1dxkf4q.media.zestyio.com/secure-parking-friends-happy-sept-2022.jpg"
+      banner_title: "Where are you going?"

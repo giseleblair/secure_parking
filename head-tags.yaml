@@ -1,0 +1,38 @@
+
+  - type: "meta"
+    attributes:
+      content: "noindex"
+      custom: "true"
+      name: "robots"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "noindex"
+      custom: "true"
+      name: "robots"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      custom: "true"
+      name: "viewport"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "noindex"
+      custom: "true"
+      name: "robots"
+    sort: 0
+  - type: "link"
+    attributes:
+      href: "https://d1dxkf4q.media.zestyio.com/favicon.ico"
+      rel: "icon"
+      sizes: "196x196"
+      type: "image/png"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "noindex"
+      custom: "true"
+      name: "robots"
+    sort: 0

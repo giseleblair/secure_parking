@@ -1,0 +1,3797 @@
+
+  - description: ""
+    label: "Clippings"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 1
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          list: false
+          options: {}
+      - name: "footer_text"
+        label: "Footer Text"
+        description: null
+        datatype: "text"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "phone"
+        label: "phone"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Phone number used in navigation and structured data"
+      - name: "parking_terms"
+        label: "Parking Terms"
+        description: ""
+        datatype: "textarea"
+        sort: 4
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "gtag_id"
+        label: "GTAG Id"
+        description: "ID for GA4"
+        datatype: "text"
+        sort: 5
+        required: true
+        relationship: null
+        settings:
+          list: false
+          tooltip: "ID for GA4"
+      - name: "ai_instrumentationkey"
+        label: "Application Insights Instrumentation Key"
+        description: ""
+        datatype: "text"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "gtm_id"
+        label: "GTM Id"
+        description: "GTM Id"
+        datatype: "text"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Dashboard Widgets"
+    name: "widgets"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/widgets.yaml"
+    fields:
+      - name: "type"
+        label: "Type"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "set_zuid"
+        label: "Set ZUID"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "direction"
+        label: "Direction"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "widget_size"
+        label: "Widget Size"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "position"
+        label: "Position"
+        description: null
+        datatype: "number"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "header"
+        label: "Header"
+        description: null
+        datatype: "text"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "data"
+        label: "Data"
+        description: null
+        datatype: "textarea"
+        sort: 10000
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "title"
+        label: "Lead in Title"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "content"
+        label: "Intro Text"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image"
+        label: "Main Image"
+        description: null
+        datatype: "images"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+      - name: "featured_item_title"
+        label: "Featured Item Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_item_type"
+        label: "Featured Item Type"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_item_description"
+        label: "Featured Item Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_item_image"
+        label: "Featured Item Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_item_cta"
+        label: "Featured Item CTA"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_item_cta_text"
+        label: "Featured Item CTA Text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "related_home_offers"
+        label: "Related Home Offers"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "offer_item"
+          display: "title"
+        settings:
+          list: true
+      - name: "offers_title"
+        label: "Offers Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "events_title"
+        label: "Events Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "products_title"
+        label: "Products Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "related_home_events"
+        label: "Related Home Events"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "offer_item"
+          display: "title"
+        settings:
+          list: true
+      - name: "events_cta"
+        label: "Events CTA"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "events_cta_text"
+        label: "Events CTA text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "offers_cta"
+        label: "Offers CTA"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "offers_cta_text"
+        label: "Offers CTA text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "offers_description"
+        label: "Offers Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "events_description"
+        label: "Events Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "product_more_cta"
+        label: "Product More CTA"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "product_cta_text"
+        label: "Product CTA text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "products_description"
+        label: "Products description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Simple Page"
+    name: "simple_page"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/simple_page.tpl"
+    content: "/content/simple_page.yaml"
+    fields:
+      - name: "title"
+        label: "Page Title"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "content"
+        label: "Page Content"
+        description: null
+        datatype: "wysiwyg_advanced"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          options: {}
+      - name: "image"
+        label: "Page Image"
+        description: null
+        datatype: "images"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          list: false
+          options: {}
+      - name: "simple_tab_list"
+        label: "Simple Tab List"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "simple_tab"
+          display: "title"
+        settings:
+          list: true
+          tooltip: "Can be a singular or list"
+  - description: null
+    label: "Sidebar Contact Form"
+    name: "sidebar_contact_form"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/sidebar_contact_form.yaml"
+    fields:
+      - name: "label"
+        label: "Label Text"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "input_type"
+        label: "Input Type"
+        description: null
+        datatype: "dropdown"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "is_required"
+        label: "Field is required"
+        description: null
+        datatype: "dropdown"
+        sort: 3
+        required: null
+        relationship: null
+        settings:
+          list: 1
+          options: {}
+      - name: "sort"
+        label: "Sort"
+        description: null
+        datatype: "sort"
+        sort: 4
+        required: null
+        relationship: null
+        settings:
+          default_sort: 1
+          list: 1
+          options: {}
+  - description: null
+    label: "MOQ Carpark Details"
+    name: "moq_carpark_details"
+    sort: 100
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_territory"
+    content: "/content/moq_carpark_details.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Name"
+      - name: "address_street"
+        label: "Street"
+        description: ""
+        datatype: "text"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Street"
+      - name: "address_suburb"
+        label: "Suburb"
+        description: ""
+        datatype: "text"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Suburb"
+      - name: "address_postcode"
+        label: "Postcode"
+        description: ""
+        datatype: "text"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Postcode"
+      - name: "address_state"
+        label: "State"
+        description: ""
+        datatype: "text"
+        sort: 12
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "State"
+      - name: "entry_instructions"
+        label: "Entry Instructions"
+        description: ""
+        datatype: "textarea"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Entry Instructions"
+      - name: "exit_instructions"
+        label: "Exit Instructions"
+        description: ""
+        datatype: "textarea"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Exit Instructions"
+      - name: "products"
+        label: "Products"
+        description: ""
+        datatype: "one_to_many"
+        sort: 40
+        required: false
+        relationship:
+          name: "moq_product_details"
+          display: "name"
+        settings:
+          list: true
+          tooltip: "Products"
+      - name: "moqid"
+        label: "MOQ Id"
+        description: ""
+        datatype: "text"
+        sort: 39
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sunday"
+        label: "Sunday"
+        description: ""
+        datatype: "text"
+        sort: 13
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "sunday_opening_hours"
+        label: "Sunday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 14
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "sunday_closing_hours"
+        label: "Sunday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 15
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "monday"
+        label: "Monday"
+        description: ""
+        datatype: "text"
+        sort: 16
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "monday_opening_hours"
+        label: "Monday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 18
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "monday_closing_hours"
+        label: "Monday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 19
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "tuesday"
+        label: "Tuesday"
+        description: ""
+        datatype: "text"
+        sort: 20
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "tuesday_opening_hours"
+        label: "Tuesday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 21
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "tuesday_closing_hours"
+        label: "Tuesday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 22
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "wednesday"
+        label: "Wednesday"
+        description: ""
+        datatype: "text"
+        sort: 23
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "wednesday_opening_hours"
+        label: "Wednesday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 24
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "wednesday_closing_hours"
+        label: "Wednesday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 25
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "thursday"
+        label: "Thursday"
+        description: ""
+        datatype: "text"
+        sort: 26
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "thursday_opening_hours"
+        label: "Thursday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 27
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "thursday_closing_hours"
+        label: "Thursday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 28
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "friday"
+        label: "Friday"
+        description: ""
+        datatype: "text"
+        sort: 29
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "friday_opening_hours"
+        label: "Friday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 30
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "friday_closing_hours"
+        label: "Friday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 31
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "saturday"
+        label: "Saturday"
+        description: ""
+        datatype: "text"
+        sort: 32
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "saturday_opening_hours"
+        label: "Saturday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 33
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "saturday_closing_hours"
+        label: "Saturday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 34
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "public_holiday"
+        label: "Public Holiday"
+        description: ""
+        datatype: "text"
+        sort: 35
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "public_holiday_opening_hours"
+        label: "Public Holiday Opening Hours"
+        description: ""
+        datatype: "text"
+        sort: 36
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "public_holiday_closing_hours"
+        label: "Public Holiday Closing Hours"
+        description: ""
+        datatype: "text"
+        sort: 37
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "date_modified"
+        label: "Date Modified"
+        description: ""
+        datatype: "datetime"
+        sort: 38
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "latitude"
+        label: "Latitude"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "longitude"
+        label: "Longitude"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "isdeleted"
+        label: "IsDeleted"
+        description: ""
+        datatype: "yes_no"
+        sort: 41
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "address_country"
+        label: "Country"
+        description: ""
+        datatype: "text"
+        sort: 17
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "maximum_height"
+        label: "Maximum Height"
+        description: ""
+        datatype: "number"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "entry_street"
+        label: "Entry Street"
+        description: ""
+        datatype: "text"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "available_services"
+        label: "Available Services"
+        description: ""
+        datatype: "one_to_many"
+        sort: 42
+        required: false
+        relationship:
+          name: "moq_service"
+          display: "name"
+        settings:
+          list: true
+      - name: "booking_min"
+        label: "Booking Minimum"
+        description: ""
+        datatype: "text"
+        sort: 43
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "min_booking_amend"
+        label: "Minimum Booking Amend"
+        description: ""
+        datatype: "text"
+        sort: 44
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "depart_notification"
+        label: "Depart Notification"
+        description: ""
+        datatype: "text"
+        sort: 45
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "max_advance_booking_days"
+        label: "Maximum Advance Booking Days"
+        description: ""
+        datatype: "text"
+        sort: 46
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "cancellation_fee"
+        label: "Cancellation Fee"
+        description: ""
+        datatype: "currency"
+        sort: 47
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "booking_fee"
+        label: "Booking Fee"
+        description: ""
+        datatype: "currency"
+        sort: 48
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "territories"
+        label: "Territories"
+        description: ""
+        datatype: "one_to_many"
+        sort: 49
+        required: false
+        relationship:
+          name: "moq_territory"
+          display: "name"
+        settings:
+          list: true
+      - name: "time_zone_id"
+        label: "Time Zone ID"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "entrances"
+        label: "Entrances"
+        description: ""
+        datatype: "one_to_many"
+        sort: 50
+        required: false
+        relationship:
+          name: "moq_entrance"
+          display: "name"
+        settings:
+          list: false
+      - name: "general_instructions"
+        label: "General Instructions"
+        description: ""
+        datatype: "textarea"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Opening Hours"
+    name: "opening_hours"
+    sort: 107
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_carpark_details"
+    content: "/content/opening_hours.yaml"
+    fields:
+      - name: "day_of_week"
+        label: "Day of Week"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Day of Week"
+      - name: "open"
+        label: "Open"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Opening Hours"
+      - name: "close"
+        label: "Close"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Closing Hours"
+  - description: null
+    label: "Header Links"
+    name: "header_links"
+    sort: 121
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/header_links.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "child_links"
+        label: "Child Links"
+        description: ""
+        datatype: "one_to_many"
+        sort: 1
+        required: false
+        relationship:
+          name: "header_secondary_links"
+          display: "title"
+        settings:
+          list: true
+      - name: "external_url"
+        label: "External URL"
+        description: ""
+        datatype: "link"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "internal_url"
+        label: "Internal URL"
+        description: ""
+        datatype: "internal_link"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Header Secondary Links"
+    name: "header_secondary_links"
+    sort: 121
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "header_links"
+    content: "/content/header_secondary_links.yaml"
+    fields:
+      - name: "external_url"
+        label: "External URL"
+        description: ""
+        datatype: "link"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "internal_url"
+        label: "Internal URL"
+        description: ""
+        datatype: "internal_link"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "child_links"
+        label: "Child Links"
+        description: ""
+        datatype: "one_to_many"
+        sort: 1
+        required: false
+        relationship:
+          name: "header_links"
+          display: "title"
+        settings:
+          list: true
+  - description: null
+    label: "Nav"
+    name: "nav"
+    sort: 129
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/nav.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "url"
+        label: "url"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort_order"
+        label: "sort_order"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Navigation Settings"
+    name: "navigation_settings"
+    sort: 133
+    listed: false
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/navigation_settings.yaml"
+    fields:
+      - name: "navigation_links"
+        label: "Navigation Links"
+        description: ""
+        datatype: "one_to_many"
+        sort: 1
+        required: false
+        relationship:
+          name: "nav_link"
+          display: "title"
+        settings:
+          list: true
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Nav Link"
+    name: "nav_link"
+    sort: 121
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "navigation_settings"
+    content: "/content/nav_link.yaml"
+    fields:
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "internal_url"
+        label: "Internal URL"
+        description: ""
+        datatype: "internal_link"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "external_url_link"
+        label: "External URL Link"
+        description: ""
+        datatype: "link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "query_string"
+        label: "Query String"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "link_icon"
+        label: "Link icon"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Icon to be shown next to the link, where applicable."
+  - description: null
+    label: "MOQ Tier Details"
+    name: "moq_tier_details"
+    sort: 151
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_configuration_details"
+    content: "/content/moq_tier_details.yaml"
+    fields:
+      - name: "moqid"
+        label: "MOQ Id"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "range_from"
+        label: "Range From"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "range_to"
+        label: "Range To"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "drive_up_rate"
+        label: "Drive Up Rate"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "pre_book_rate"
+        label: "Pre Book Rate"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "occupancy_from"
+        label: "Occupancy From"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "occupancy_to"
+        label: "Occupancy To"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "MOQ Configuration Details"
+    name: "moq_configuration_details"
+    sort: 152
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_rate_details"
+    content: "/content/moq_configuration_details.yaml"
+    fields:
+      - name: "moqid"
+        label: "MOQ Id"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "duration_type"
+        label: "Duration Type"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "usage_days"
+        label: "Usage Days"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "entry_start_time"
+        label: "Entry Start Time"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "entry_end_time"
+        label: "Entry End Time"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "entry_start_next_day"
+        label: "Entry Start Next Day"
+        description: ""
+        datatype: "yes_no"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "entry_end_next_day"
+        label: "Entry End Next Day"
+        description: ""
+        datatype: "yes_no"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "entry_use_carpark_hours"
+        label: "Entry Use Carpark Hours"
+        description: ""
+        datatype: "yes_no"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "exit_start_time"
+        label: "Exit Start Time"
+        description: ""
+        datatype: "text"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "exit_end_time"
+        label: "Exit End Time"
+        description: ""
+        datatype: "text"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "exit_start_next_day"
+        label: "Exit Start Next Day"
+        description: ""
+        datatype: "yes_no"
+        sort: 12
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "exit_end_next_day"
+        label: "Exit End Next Day"
+        description: ""
+        datatype: "yes_no"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "exit_use_carpark_hours"
+        label: "Exit Use Carpark Hours"
+        description: ""
+        datatype: "yes_no"
+        sort: 13
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "tier_unit"
+        label: "Tier Unit"
+        description: ""
+        datatype: "text"
+        sort: 14
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "is_multi_entry"
+        label: "Is Multi Entry"
+        description: ""
+        datatype: "yes_no"
+        sort: 15
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "tiers"
+        label: "Tiers"
+        description: ""
+        datatype: "one_to_many"
+        sort: 16
+        required: false
+        relationship:
+          name: "moq_tier_details"
+          display: "description"
+        settings:
+          list: true
+      - name: "moqtype"
+        label: "Type"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "usage_days_display"
+        label: "Usage Days Display"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "News Article"
+    name: "news_article"
+    sort: 153
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/news_article.tpl"
+    content: "/content/news_article.yaml"
+    fields:
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "article_image"
+        label: "Article Image"
+        description: ""
+        datatype: "images"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "News Listing"
+    name: "news_listing"
+    sort: 155
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/news_listing.tpl"
+    content: "/content/news_listing.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_article_title"
+        label: "Featured Article Title"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_article_image"
+        label: "Featured Article Image"
+        description: ""
+        datatype: "images"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_article_cta"
+        label: "Featured Article CTA"
+        description: ""
+        datatype: "internal_link"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_article_description"
+        label: "Featured Article Description"
+        description: ""
+        datatype: "textarea"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "featured_article_cta_text"
+        label: "Featured Article CTA Text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "show"
+        label: "Show At Load"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "show_featured_article"
+        label: "Show featured  article"
+        description: ""
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+  - description: null
+    label: "MOQ Product Details"
+    name: "moq_product_details"
+    sort: 159
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_carpark_details"
+    content: "/content/moq_product_details.yaml"
+    fields:
+      - name: "moqid"
+        label: "Moq ID"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "moqtype"
+        label: "Type"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "rates"
+        label: "Rates"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "moq_rate_details"
+          display: "name"
+        settings:
+          list: true
+      - name: "category"
+        label: "Category"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "onlinestatus"
+        label: "Online Status"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "carparks_selection"
+        label: "Carparks Selection"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "moq_carpark_details"
+          display: "name"
+        settings:
+          list: true
+      - name: "id"
+        label: "id"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+  - description: null
+    label: "MOQ Rate Details"
+    name: "moq_rate_details"
+    sort: 160
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_product_details"
+    content: "/content/moq_rate_details.yaml"
+    fields:
+      - name: "moqid"
+        label: "Moq ID"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "valid_from"
+        label: "Valid From"
+        description: ""
+        datatype: "datetime"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "valid_to"
+        label: "Valid To"
+        description: ""
+        datatype: "datetime"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "configurations"
+        label: "Configuration"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "moq_configuration_details"
+          display: "usage_days"
+        settings:
+          list: true
+  - description: null
+    label: "Offer Item"
+    name: "offer_item"
+    sort: 167
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    content: "/content/offer_item.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "deal_image"
+        label: "Deal Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "offer_or_event"
+        label: "Offer or Event"
+        description: ""
+        datatype: "dropdown"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+          options:
+            event: "Event"
+            offer: "Offer"
+      - name: "show_in_nz"
+        label: "Show in NZ"
+        description: ""
+        datatype: "yes_no"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: false
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "show_in_au"
+        label: "Show in AU"
+        description: ""
+        datatype: "yes_no"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: false
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "event_display_tab"
+        label: "Event Display Tab"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "event_display"
+          display: "title"
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "content_below_listing"
+        label: "Content Below Listing"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "territories"
+        label: "Territories"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "moq_territory"
+          display: "name"
+        settings:
+          list: true
+  - description: null
+    label: "Country Listing"
+    name: "country_listing"
+    sort: 184
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/country_listing.tpl"
+    content: "/content/country_listing.yaml"
+    fields: []
+  - description: null
+    label: "State Listing"
+    name: "state_listing"
+    sort: 186
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/state_listing.tpl"
+    content: "/content/state_listing.yaml"
+    fields: []
+  - description: null
+    label: "Carpark Details"
+    name: "carpark_details"
+    sort: 190
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/carpark_details.tpl"
+    content: "/content/carpark_details.yaml"
+    fields:
+      - name: "carpark_image"
+        label: "Carpark Image"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "moq_details"
+        label: "moq_details"
+        description: "Content in this field will be overwritten on MOQ updates"
+        datatype: "one_to_one"
+        sort: 5
+        required: false
+        relationship:
+          name: "moq_carpark_details"
+          display: "name"
+        settings:
+          list: true
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "carpark_alert"
+        label: "Carpark Alert"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "moq_json"
+        label: "MOQ Json"
+        description: "Do not edit this content - this is automatically updated from AMP periodically"
+        datatype: "textarea"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Team Listing"
+    name: "team_listing"
+    sort: 199
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/team_listing.tpl"
+    content: "/content/team_listing.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "show"
+        label: "Show at Load"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Team Item"
+    name: "team_item"
+    sort: 201
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/team_item.tpl"
+    content: "/content/team_item.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "team_image"
+        label: "Team Member Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Car Park search"
+    name: "car_park_search"
+    sort: 205
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/car_park_search.tpl"
+    content: "/content/car_park_search.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "product_tabs"
+        label: "Product Tabs"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "product_tab"
+          display: "tab_name"
+        settings:
+          list: true
+  - description: null
+    label: "Account Page"
+    name: "account_page"
+    sort: 209
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/account_page.tpl"
+    content: "/content/account_page.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Personal Details"
+    name: "personal_details"
+    sort: 212
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/personal_details.tpl"
+    content: "/content/personal_details.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Offers Listing"
+    name: "offers_listing"
+    sort: 165
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/offers_listing.tpl"
+    content: "/content/offers_listing.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "show"
+        label: "Show At Load"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "MOQ Service"
+    name: "moq_service"
+    sort: 214
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_carpark_details"
+    content: "/content/moq_service.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "moqid"
+        label: "MOQID"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "display_name"
+        label: "Display Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Product Categories"
+    name: "product_categories"
+    sort: 216
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/product_categories.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Title displayed in category list"
+      - name: "category_icon"
+        label: "Category Icon"
+        description: ""
+        datatype: "images"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Icon displayed in category list"
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Description displayed in category list"
+      - name: "product_category"
+        label: "Product Category"
+        description: ""
+        datatype: "dropdown"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            daily: "Daily"
+            earlybird: "Earlybird"
+            general_link: "General Link"
+            hourly: "Hourly"
+            multi_day: "Multi Day"
+          tooltip: ""
+      - name: "sort_order"
+        label: "Sort Order"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "link_to_page"
+        label: "Link to Page"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+          tooltip: "Optional. Should only be used for General Link Product Types"
+      - name: "external_link"
+        label: "External Link"
+        description: ""
+        datatype: "link"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+          tooltip: "Link to external url"
+  - description: null
+    label: "User Preferences"
+    name: "user_preferences"
+    sort: 223
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/user_preferences.tpl"
+    content: "/content/user_preferences.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "User Preference Setting"
+    name: "user_preference_setting"
+    sort: 226
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/user_preference_setting.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "user_prefs"
+        label: "User Preferences"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "user_preference"
+          display: "display_name"
+        settings:
+          list: true
+  - description: null
+    label: "User Preference"
+    name: "user_preference"
+    sort: 227
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "user_preference_setting"
+    content: "/content/user_preference.yaml"
+    fields:
+      - name: "display_name"
+        label: "Display Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "value"
+        label: "Value"
+        description: "This value controls the subscription/unsubscription of users from marketing groups in CEP. Please do not change this without understanding impact to AMP systems"
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "MOQ Service Setting"
+    name: "moq_service_setting"
+    sort: 236
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/moq_service_setting.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "moq_services"
+        label: "Services"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10000
+        required: false
+        relationship:
+          name: "moq_service"
+          display: "name"
+        settings:
+          list: true
+      - name: "id"
+        label: "id"
+        description: ""
+        datatype: "uuid"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+  - description: null
+    label: "Booking Tabs"
+    name: "booking_tabs"
+    sort: 238
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/booking_tabs.tpl"
+    content: "/content/booking_tabs.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Find a park"
+    name: "find_a_park"
+    sort: 240
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/find_a_park.tpl"
+    content: "/content/find_a_park.yaml"
+    fields:
+      - name: "title"
+        label: "title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Product Tab"
+    name: "product_tab"
+    sort: 245
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/product_tab.yaml"
+    fields:
+      - name: "tab_name"
+        label: "Tab Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "tab_icon"
+        label: "Tab Icon"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "If no icon is selected, the icon will default to product type icon (one of the four types). "
+      - name: "tab_description"
+        label: "Tab Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "product_type"
+        label: "Product Type"
+        description: ""
+        datatype: "dropdown"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+          options:
+            allday: "All Day"
+            hourly: "Hourly"
+            multi: "Multi"
+            night: "Night"
+          tooltip: "Please pick from 4 types: Daily, Hourly, Nightly or Multi."
+      - name: "sort"
+        label: "Sort Order"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "The order in which the item would appear - here in ascending order (1 = item appears first)."
+  - description: null
+    label: "Cart"
+    name: "cart"
+    sort: 250
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/cart.tpl"
+    content: "/content/cart.yaml"
+    fields: []
+  - description: null
+    label: "Home Banner"
+    name: "home_banner"
+    sort: 252
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/home_banner.yaml"
+    fields:
+      - name: "banner_title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "banner_img"
+        label: "Banner Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Booking Review"
+    name: "booking_review"
+    sort: 262
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/booking_review.tpl"
+    content: "/content/booking_review.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Payment Methods"
+    name: "payment_methods"
+    sort: 265
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/payment_methods.tpl"
+    content: "/content/payment_methods.yaml"
+    fields: []
+  - description: null
+    label: "Add Card"
+    name: "add_card"
+    sort: 267
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/add_card.tpl"
+    content: "/content/add_card.yaml"
+    fields: []
+  - description: null
+    label: "Terms and Conditions"
+    name: "terms_and_conditions"
+    sort: 270
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/terms_and_conditions.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "MOQ Event"
+    name: "moq_event"
+    sort: 272
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_territory"
+    content: "/content/moq_event.yaml"
+    fields:
+      - name: "moqid"
+        label: "Moq ID"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "event_type"
+        label: "Type"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "startdate"
+        label: "Start Date"
+        description: ""
+        datatype: "datetime"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "enddate"
+        label: "End Date"
+        description: ""
+        datatype: "datetime"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "latitude"
+        label: "Latitude"
+        description: ""
+        datatype: "number"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "longitude"
+        label: "Longitude"
+        description: ""
+        datatype: "number"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "territories"
+        label: "Territories"
+        description: ""
+        datatype: "one_to_many"
+        sort: 3
+        required: false
+        relationship:
+          name: "moq_territory"
+          display: "name"
+        settings:
+          list: true
+      - name: "lastupdated"
+        label: "LastUpdated"
+        description: ""
+        datatype: "text"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "carpark"
+        label: "Carpark"
+        description: ""
+        datatype: "one_to_many"
+        sort: 6
+        required: false
+        relationship:
+          name: "moq_carpark_details"
+          display: "name"
+        settings:
+          list: true
+      - name: "event_products"
+        label: "Event Products"
+        description: ""
+        datatype: "one_to_many"
+        sort: 10
+        required: false
+        relationship:
+          name: "moq_product_details"
+          display: "name"
+        settings:
+          list: true
+  - description: null
+    label: "MOQ Territory"
+    name: "moq_territory"
+    sort: 273
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/moq_territory.yaml"
+    fields:
+      - name: "moqid"
+        label: "moq_id"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Location"
+    name: "location"
+    sort: 278
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/location.tpl"
+    content: "/content/location.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "promotions"
+        label: "Promotions"
+        description: ""
+        datatype: "one_to_many"
+        sort: 5
+        required: false
+        relationship:
+          name: "promotion"
+          display: "title"
+        settings:
+          list: true
+      - name: "territories"
+        label: "Territories"
+        description: ""
+        datatype: "one_to_many"
+        sort: 6
+        required: false
+        relationship:
+          name: "moq_territory"
+          display: "name"
+        settings:
+          list: true
+      - name: "terms"
+        label: "Terms & Conditions"
+        description: ""
+        datatype: "textarea"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "summary"
+        label: "Summary"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Promotion"
+    name: "promotion"
+    sort: 281
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/promotion.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "promocode"
+        label: "Promocode"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Event Display"
+    name: "event_display"
+    sort: 283
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/event_display.yaml"
+    fields:
+      - name: "linked_moq_event"
+        label: "Associated MOQ Event"
+        description: ""
+        datatype: "one_to_one"
+        sort: 4
+        required: false
+        relationship:
+          name: "moq_event"
+          display: "name"
+        settings:
+          list: true
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "product_selection"
+        label: "Product Selection"
+        description: ""
+        datatype: "one_to_many"
+        sort: 6
+        required: false
+        relationship:
+          name: "moq_product_details"
+          display: "name"
+        settings:
+          list: true
+      - name: "date_to"
+        label: "Date to"
+        description: ""
+        datatype: "date"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "date_from"
+        label: "Date from"
+        description: ""
+        datatype: "date"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "event_desc"
+        label: "Event Description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Locations List"
+    name: "locations_list"
+    sort: 286
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/locations_list.tpl"
+    content: "/content/locations_list.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "description_old"
+        label: "Description OLD"
+        description: ""
+        datatype: "textarea"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "location_selector"
+        label: "Location Selector"
+        description: ""
+        datatype: "one_to_many"
+        sort: 3
+        required: false
+        relationship:
+          name: "location"
+          display: "title"
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Vehicles Page"
+    name: "vehicles_page"
+    sort: 288
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/vehicles_page.tpl"
+    content: "/content/vehicles_page.yaml"
+    fields: []
+  - description: null
+    label: "Vehicle Types"
+    name: "vehicle_types"
+    sort: 291
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/vehicle_types.yaml"
+    fields:
+      - name: "vehicle_title"
+        label: "Vehicle Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "vehicle_desc"
+        label: "Vehicle Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "vehicle_icon"
+        label: "Vehicle Icon"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Receipts"
+    name: "receipts"
+    sort: 292
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/receipts.tpl"
+    content: "/content/receipts.yaml"
+    fields: []
+  - description: ""
+    label: "Availability Messages"
+    name: "availability_messages"
+    sort: 294
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/availability_messages.yaml"
+    fields:
+      - name: "messagetext"
+        label: "MessageText"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "min"
+        label: "min"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "max"
+        label: "max"
+        description: ""
+        datatype: "number"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "background_colour"
+        label: "Background Colour"
+        description: ""
+        datatype: "color"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "text_colour"
+        label: "Text Colour"
+        description: ""
+        datatype: "color"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Dictionary Item"
+    name: "dictionary_item"
+    sort: 299
+    listed: false
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/dictionary_item.yaml"
+    fields:
+      - name: "key"
+        label: "Key"
+        description: "NOTE: This field is referred to in code and should not be changed"
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "value"
+        label: "Value"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "MOQ Entrance"
+    name: "moq_entrance"
+    sort: 438
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "moq_carpark_details"
+    content: "/content/moq_entrance.yaml"
+    fields:
+      - name: "name"
+        label: "Name - Overwritten by Import"
+        description: "This field is automatically generated as part of the import process. Do not change, as changes will be overwritten."
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Name - Overwritten by Import"
+      - name: "description"
+        label: "Description- Overwritten by Import"
+        description: "This field is automatically generated as part of the import process. Do not change, as changes will be overwritten."
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Description - Overwritten by Import"
+      - name: "longitude"
+        label: "Longitude - Overwritten by Import"
+        description: "This field is automatically generated as part of the import process. Do not change, as changes will be overwritten."
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Longitude - Overwritten by Import"
+      - name: "latitude"
+        label: "Latitude - Overwritten by Import"
+        description: "This field is automatically generated as part of the import process. Do not change, as changes will be overwritten."
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Latitude - Overwritten by Import"
+      - name: "moqid"
+        label: "MOQID"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "id"
+        label: "id"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: null
+  - description: null
+    label: "Form Fields"
+    name: "form_fields"
+    sort: 442
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "form"
+    content: "/content/form_fields.yaml"
+    fields:
+      - name: "field_type"
+        label: "Field Type"
+        description: ""
+        datatype: "dropdown"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            checkbox: "Checkbox"
+            email: "Email"
+            file_not_currently_available: "File (NOT CURRENTLY AVAILABLE)"
+            hidden: "Hidden"
+            inputdate: "Date"
+            number: "Number"
+            phone: "Phone"
+            radio: "Radio"
+            select: "Select"
+            text: "Text"
+            textarea: "Textarea"
+          tooltip: "Select the type of form field"
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "value"
+        label: "Value"
+        description: ""
+        datatype: "text"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "default_value"
+        label: "Default Value"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "label"
+        label: "Label"
+        description: ""
+        datatype: "text"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "attributes"
+        label: "Attributes"
+        description: ""
+        datatype: "text"
+        sort: 8
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "required"
+        label: "Required"
+        description: ""
+        datatype: "yes_no"
+        sort: 9
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "regex"
+        label: "Regex"
+        description: ""
+        datatype: "text"
+        sort: 10
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "query_string_name"
+        label: "Query String Name"
+        description: ""
+        datatype: "text"
+        sort: 11
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "select_options"
+        label: "Select Options"
+        description: "Select Options - Only used for fields of type select"
+        datatype: "one_to_many"
+        sort: 6
+        required: false
+        relationship:
+          name: "select_option"
+          display: "value"
+        settings:
+          list: false
+          tooltip: "Select Options - Only used for fields of type select"
+      - name: "help_text_long"
+        label: "Help Text Long"
+        description: "Provides users information about this field"
+        datatype: "textarea"
+        sort: 12
+        required: false
+        relationship: null
+        settings:
+          list: false
+          tooltip: "Provides users information about this field"
+      - name: "full_page"
+        label: "Full Page"
+        description: "If yes, the field displays at full page width; otherwise, it displays at half page width. Note: not applicable for field types: radio and checkbox"
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+          tooltip: "Field displays in full page width"
+      - name: "is_multiple_select"
+        label: "Enable Multiple Selection"
+        description: "Set this field when field type is Select and would need to achieve multi select."
+        datatype: "yes_no"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+          tooltip: "Use with field type Select"
+      - name: "field_class"
+        label: "field class"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Form"
+    name: "form"
+    sort: 443
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/form.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "fields"
+        label: "Fields"
+        description: ""
+        datatype: "one_to_many"
+        sort: 1
+        required: false
+        relationship:
+          name: "form_fields"
+          display: "name"
+        settings:
+          list: true
+  - description: null
+    label: "Form Page"
+    name: "form_page"
+    sort: 449
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/form_page.tpl"
+    content: "/content/form_page.yaml"
+    fields:
+      - name: "content_above_form"
+        label: "Content Above Form"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: false
+      - name: "content_below_form"
+        label: "Content Below Form"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "form"
+        label: "Form"
+        description: ""
+        datatype: "one_to_one"
+        sort: 4
+        required: false
+        relationship:
+          name: "form"
+          display: "name"
+        settings:
+          list: true
+      - name: "thank_you_page"
+        label: "Thank You Page"
+        description: "Redirect to this page on successful submission or set the thank you message field to show message in place of form"
+        datatype: "internal_link"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: false
+          tooltip: "Redirect to this page on successful submission"
+      - name: "recipient_email_address"
+        label: "Recipient Email Address"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "thank_you_message"
+        label: "Thank You Message"
+        description: "Display this message inline if Thankyou page not required"
+        datatype: "wysiwyg_basic"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: false
+          tooltip: "Display this message inline if Thankyou page not required"
+      - name: "email_subject"
+        label: "Email Subject"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Select Option"
+    name: "select_option"
+    sort: 463
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "form_fields"
+    content: "/content/select_option.yaml"
+    fields:
+      - name: "name"
+        label: "Name"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "label"
+        label: "Label"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "required"
+        label: "Required"
+        description: ""
+        datatype: "yes_no"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          list: true
+          options:
+            0: "No"
+            1: "Yes"
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 7
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "default_value"
+        label: "Default Value"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "value"
+        label: "Value"
+        description: ""
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "regex"
+        label: "Regex"
+        description: ""
+        datatype: "text"
+        sort: 5
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "query_string_name"
+        label: "Query String Name"
+        description: ""
+        datatype: "text"
+        sort: 6
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Simple Tab"
+    name: "simple_tab"
+    sort: 505
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/simple_tab.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Tabs title"
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Description text"
+      - name: "link"
+        label: "link"
+        description: ""
+        datatype: "internal_link"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: true
+          tooltip: "Page link"
+      - name: "sort"
+        label: "Sort"
+        description: ""
+        datatype: "sort"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: null
+    label: "Prod group"
+    name: "prod_group"
+    sort: 516
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/prod_group.yaml"
+    fields:
+      - name: "carpark"
+        label: "Carpark"
+        description: ""
+        datatype: "one_to_one"
+        sort: 10000
+        required: false
+        relationship:
+          name: "moq_carpark_details"
+          display: "name"
+        settings:
+          list: true
+  - description: ""
+    label: "Home Page Selector"
+    name: "home_page_selector"
+    sort: 935
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/home_page_selector.tpl"
+    content: "/content/home_page_selector.yaml"
+    fields:
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: "Link and text for the \"Find a Park\" buttons"
+    label: "Find Car Parks Button Links"
+    name: "find_car_parks_button_links"
+    sort: 47204
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/find_car_parks_button_links.yaml"
+    fields:
+      - name: "button_text"
+        label: "Button Text"
+        description: "Text to appear in button"
+        datatype: "text"
+        sort: 0
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "page_link"
+        label: "Page Link"
+        description: "URL to internal page of site"
+        datatype: "internal_link"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          list: true
+      - name: "query_string"
+        label: "Query String"
+        description: "Query String to append after ? on the page link"
+        datatype: "text"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true

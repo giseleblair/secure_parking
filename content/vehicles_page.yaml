@@ -1,0 +1,18 @@
+
+  - id: "f4dd-7c8f-6b91"
+    web:
+      metaDescription: "Secure Parking customer vehicle details. Customers can update their account vehicle preferences here at any time. Please ensure you save your user details."
+      metaTitle: "Vehicles"
+      metaLinkText: "Vehicles"
+      metaKeywords: null
+      pathPart: "vehicles"
+      path: "/en-au/account/vehicles/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/account/"
+    meta:
+      sort: 313
+      listed: true
+    data: {}

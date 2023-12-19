@@ -1,0 +1,300 @@
+
+  - id: "0c4a-7b68-e905"
+    web:
+      metaDescription: "Secure Parking Pty Ltd. The official latest company news. Click here for corporate updates and information."
+      metaTitle: "Latest News"
+      metaLinkText: "Latest News"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 47206
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "997d-e8b4-227b"
+      link_icon: null
+      query_string: null
+      sort: 1
+      title: "Latest News"
+  - id: "7d30-cc9c-4895"
+    web:
+      metaDescription: ""
+      metaTitle: "All car parks"
+      metaLinkText: "Find a Park"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 367
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "95ee-86d9-5815"
+      link_icon: "https://tzmhv269.media.zestyio.com/all-parks.svg"
+      query_string: "?parkingNearme=true&showAllCarparks=true"
+      sort: 2
+      title: "Find Parking"
+  - id: "d7a9-bee8-c647"
+    web:
+      metaDescription: ""
+      metaTitle: "Legal"
+      metaLinkText: "Legal"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 176
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "4906-cf39-9a1d"
+      link_icon: null
+      query_string: null
+      sort: 3
+      title: "Legal"
+  - id: "e962-48eb-8c08"
+    web:
+      metaDescription: ""
+      metaTitle: "Help"
+      metaLinkText: "Help"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 175
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "1434-c9b6-394f"
+      link_icon: null
+      query_string: null
+      sort: 2
+      title: "Help"
+  - id: "1d5b-50a4-a34b"
+    web:
+      metaDescription: ""
+      metaTitle: "Parking bookable online"
+      metaLinkText: "Parking bookable online"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 365
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "95ee-86d9-5815"
+      link_icon: "https://tzmhv269.media.zestyio.com/booking-online.svg"
+      query_string: "?showOnlineOnly=true"
+      sort: 1
+      title: "Pay Online"
+  - id: "1582-fad0-fdbf"
+    web:
+      metaDescription: ""
+      metaTitle: "Parking near me"
+      metaLinkText: "Parking near me"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 366
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "95ee-86d9-5815"
+      link_icon: "https://tzmhv269.media.zestyio.com/location-white.svg"
+      query_string: "?parkingNearme=true"
+      sort: 3
+      title: "Parking Near By"
+  - id: "1e6c-96d7-74a0"
+    web:
+      metaDescription: ""
+      metaTitle: "Long-term & multi-day parking"
+      metaLinkText: "Long-term & multi-day parking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 364
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "95ee-86d9-5815"
+      link_icon: "https://tzmhv269.media.zestyio.com/calendar-white.H16gxBUUK.svg"
+      query_string: "?parkingNearme=true&primaryCategory=multi"
+      sort: 4
+      title: "Long Term & Multi-Day Parking"
+  - id: "bbc5-2940-0481"
+    web:
+      metaDescription: ""
+      metaTitle: "Privacy Policy"
+      metaLinkText: "Privacy Policy"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 179
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "b478-b44c-df7c"
+      link_icon: null
+      query_string: null
+      sort: null
+      title: "Privacy Policy"
+  - id: "e7d3-b111-37b0"
+    web:
+      metaDescription: ""
+      metaTitle: "Nav link Test to Contact"
+      metaLinkText: "Nav link Test to Contact"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 213
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "7-92f7bbd1db-h2gdjn"
+      link_icon: null
+      query_string: null
+      sort: 1
+      title: "Nav link Test to Contact"
+  - id: "c884-7795-424c"
+    web:
+      metaDescription: ""
+      metaTitle: "Contact Us"
+      metaLinkText: "Contact Us"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 178
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "edb4-c746-6b66"
+      link_icon: null
+      query_string: null
+      sort: -1
+      title: "Contact Us"
+  - id: "9b4a-9e76-bc6d"
+    web:
+      metaDescription: ""
+      metaTitle: "Test External Link"
+      metaLinkText: "Test External Link"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 249
+      listed: true
+    data:
+      external_url_link: ""
+      internal_url: "e52f-5cf8-5ea6"
+      link_icon: null
+      query_string: null
+      sort: null
+      title: "Business Portal"
+  - id: "6754-6920-2501"
+    web:
+      metaDescription: ""
+      metaTitle: "Corporate Services"
+      metaLinkText: "Corporate Services"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 177
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "beb4-7279-9211"
+      link_icon: null
+      query_string: null
+      sort: 1
+      title: "Corporate Services"
+  - id: "96d8-b410-49c5"
+    web:
+      metaDescription: ""
+      metaTitle: "About"
+      metaLinkText: "About"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 754
+      listed: true
+    data:
+      external_url_link: null
+      internal_url: "8939-7b21-a582"
+      link_icon: null
+      query_string: null
+      sort: 0
+      title: "About Us"

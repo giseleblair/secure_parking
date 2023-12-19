@@ -1,0 +1,19 @@
+
+  - id: "7765-63c7-7440"
+    web:
+      metaDescription: "Secure Parking - Your personal details have been updated. You can change your details here at any time but must ensure you click save details."
+      metaTitle: "Personal details"
+      metaLinkText: "Personal Details"
+      metaKeywords: null
+      pathPart: "personal-details"
+      path: "/en-au/account/personal-details/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/account/"
+    meta:
+      sort: 251
+      listed: true
+    data:
+      title: "Personal Details"

@@ -1,0 +1,19 @@
+
+  - id: "13b0-b7d7-fbcc"
+    web:
+      metaDescription: ""
+      metaTitle: "Home Page Selector"
+      metaLinkText: "DO NOT REMOVE - Home Page Selector"
+      metaKeywords: null
+      pathPart: "zesty_home"
+      path: "/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 936
+      listed: true
+    data:
+      description: "Home page selector"

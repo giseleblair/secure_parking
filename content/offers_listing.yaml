@@ -1,0 +1,58 @@
+
+  - id: "992f-c318-6e30"
+    web:
+      metaDescription: "Secure Parking has cheap and discounted car parks and parking near by. SecureP also offer parking close to major stadiums, theatre's and exhibition spaces."
+      metaTitle: "Offers and Events"
+      metaLinkText: "Offers and Events"
+      metaKeywords: null
+      pathPart: "offers-and-events"
+      path: "/en-au/offers-and-events/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 231
+      listed: true
+    data:
+      show: 16
+      title: "Offers and Events "
+  - id: "e90c-f89a-277a"
+    web:
+      metaDescription: "Book your parking online. Secure Parking is available across Sydney, Melbourne, Brisbane, Perth, Adelaide, and Canberra."
+      metaTitle: "Offers - Secure Parking"
+      metaLinkText: "Offers"
+      metaKeywords: null
+      pathPart: "offers"
+      path: "/en-au/offers/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 815
+      listed: true
+    data:
+      show: 16
+      title: "Offers"
+  - id: "cad9-d594-0bac"
+    web:
+      metaDescription: "Book your parking online. Secure Parking is available across Sydney, Melbourne, Brisbane, Perth, Adelaide, and Canberra."
+      metaTitle: "Events  - Secure Parking"
+      metaLinkText: "Events"
+      metaKeywords: null
+      pathPart: "events"
+      path: "/en-au/events/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 816
+      listed: true
+    data:
+      show: 16
+      title: "Events"

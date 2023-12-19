@@ -1,0 +1,120 @@
+
+  - id: "e7c4-c734-3849"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within TAS or Tasmania. Parking in the city of Hobart and the regions of TAS."
+      metaTitle: "TAS"
+      metaLinkText: "TAS"
+      metaKeywords: null
+      pathPart: "tas"
+      path: "/en-au/car-parks/australia/tas/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
+  - id: "50d5-9c51-8f8c"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within VIC or Victoria. Parking in the city of Melbourne and the regions of VIC."
+      metaTitle: "VIC"
+      metaLinkText: "VIC"
+      metaKeywords: null
+      pathPart: "vic"
+      path: "/en-au/car-parks/australia/vic/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
+  - id: "9040-d92e-1261"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within WA or Western Australia. Parking in the city of Perth and Fremantle. Click for more."
+      metaTitle: "WA"
+      metaLinkText: "WA"
+      metaKeywords: null
+      pathPart: "wa"
+      path: "/en-au/car-parks/australia/wa/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
+  - id: "2afb-d0c1-d648"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within SA or South Australia. Parking in the city of Adelaide and Glenelg. Click for more."
+      metaTitle: "SA"
+      metaLinkText: "SA"
+      metaKeywords: null
+      pathPart: "sa"
+      path: "/en-au/car-parks/australia/sa/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
+  - id: "fef6-3235-54cf"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within QLD or Queensland. Parking in the city of Brisbane, Gold Coast and the regions of QLD."
+      metaTitle: "QLD"
+      metaLinkText: "QLD"
+      metaKeywords: null
+      pathPart: "qld"
+      path: "/en-au/car-parks/australia/qld/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
+  - id: "f5d2-b046-0d37"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within NSW or New South Wales. Parking in the city of Sydney and the regions of NSW."
+      metaTitle: "NSW"
+      metaLinkText: "NSW"
+      metaKeywords: null
+      pathPart: "nsw"
+      path: "/en-au/car-parks/australia/nsw/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}
+  - id: "6449-348b-5c67"
+    web:
+      metaDescription: "Secure Parking Car Parks in Australia within the ACT or Australian Capital Territory. Parking in the city of Canberra the capital of Australia."
+      metaTitle: "ACT"
+      metaLinkText: "ACT"
+      metaKeywords: null
+      pathPart: "act"
+      path: "/en-au/car-parks/australia/act/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/car-parks/australia/"
+    meta:
+      sort: 0
+      listed: true
+    data: {}

@@ -1,0 +1,89 @@
+
+  - id: "b016-568d-3667"
+    web:
+      metaDescription: "The best choice for short-stays or last minute parking."
+      metaTitle: "Hourly"
+      metaLinkText: "Hourly"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 307
+      listed: true
+    data:
+      product_type: "hourly"
+      sort: 2
+      tab_description: "Short-stay parking any day of the week including flat rate weekend deals."
+      tab_icon: "https://tzmhv269.media.zestyio.com/Hourly.svg"
+      tab_name: "Hourly"
+  - id: "a79d-0ded-a6c6"
+    web:
+      metaDescription: "Save on all day parking, including Early Bird and Weekend parking."
+      metaTitle: "Daily"
+      metaLinkText: "Daily"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 308
+      listed: true
+    data:
+      product_type: "allday"
+      sort: 1
+      tab_description: "All day parking, including Early Bird and Weekend Parking."
+      tab_icon: "https://tzmhv269.media.zestyio.com/Daily.svg"
+      tab_name: "Daily"
+  - id: "612a-ec62-f533"
+    web:
+      metaDescription: "Flexible daily parking in packs of 10 or overnight short term parking."
+      metaTitle: "Multi Day"
+      metaLinkText: "Multi Day"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 301
+      listed: true
+    data:
+      product_type: "multi"
+      sort: 4
+      tab_description: "Longer term parking including Monthly, Flexi or consecutive day parking."
+      tab_icon: "https://d1dxkf4q.media.zestyio.com/flexi.svg"
+      tab_name: "Multi Day"
+  - id: "50f5-1924-789f"
+    web:
+      metaDescription: "Save with off peak evening and overnight parking."
+      metaTitle: "Nightly"
+      metaLinkText: "Nightly"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 302
+      listed: true
+    data:
+      product_type: "night"
+      sort: 3
+      tab_description: "Save with off peak evening and overnight parking."
+      tab_icon: "https://tzmhv269.media.zestyio.com/Night.svg"
+      tab_name: "Night"

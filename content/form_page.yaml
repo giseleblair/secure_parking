@@ -1,0 +1,385 @@
+
+  - id: "685b-fe9b-f3e1"
+    web:
+      metaDescription: "Submit your question on Flexi pre-paid vouchers to Secure Parking Australia. A representative will call or email you back.\n"
+      metaTitle: "Contact Us re Flexi Parking"
+      metaLinkText: "Flexi Parking - Form page"
+      metaKeywords: null
+      pathPart: "flexi-voucher-parking"
+      path: "/en-au/contact-us/flexi-voucher-parking/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 740
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request re Flexi Parking</h1>\n<p>Flexi Parking Vouchers are prepaid blocks of parking (10, 20, 30, 40 or 50 days) to use as and when you require over a 6 month period. Best of all you can enter and exit multiple times during a single day!</p>\n<p>Tell us more about your needs and how many Flexi Parking Vouchers you require. A member of our team will respond as soon as possible.</p>"
+      content_below_form: "<p style=\"text-align: center;\"><span style=\"letter-spacing: 0px;\">Prefer to call us? We are available between 9:00am &ndash; 5:00pm AEST: 612 8000 8790.</span></p>"
+      email_subject: "New Flexi Voucher"
+      form: "69ac-4d77-f7a2"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: "<p>Your contact request about Flexi Parking Vouchers has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "9222-2d61-c19a"
+  - id: "2250-7bb3-ae15"
+    web:
+      metaDescription: "Your contact request about stall hire at 28 Bourke Street Market-in-a-Car-Park has been successfully received. A Secure Parking team member will contact you"
+      metaTitle: "Market-in-a-Car-Park form page"
+      metaLinkText: "Market-in-a-Car-Park form page"
+      metaKeywords: null
+      pathPart: "market-in-a-car-park"
+      path: "/en-au/contact-us/market-in-a-car-park/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 39785
+      listed: true
+    data:
+      content_above_form: "<h1 style=\"text-align: center;\">Submit a contact request re Market-in-a-Car-Park stall hire</h1>\n<p id=\"request_description_hint\" style=\"text-align: center;\">Tell us more about your needs. A team member will respond as soon as possible using the email or phone number you provide.</p>"
+      content_below_form: "<p style=\"text-align: center;\"><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      email_subject: "Car park Information enquiries"
+      form: "bcc9-9aab-86f4"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p style=\"text-align: center;\">Your contact request about stall hire at 28 Bourke Street Market-in-a-Car-Parkn successfully received.</p>\n<p style=\"text-align: center;\">A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: null
+  - id: "40f4-8d18-7293"
+    web:
+      metaDescription: "Submit your question on Monthly or Subscription Parking to Secure Parking Australia & New Zealand. A representative will call or email you back.\n"
+      metaTitle: "Contact Us re Subscription Parking"
+      metaLinkText: "Monthly Parking - Form Page"
+      metaKeywords: null
+      pathPart: "monthly-or-subscription-parking"
+      path: "/en-au/contact-us/monthly-or-subscription-parking/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 739
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request re Monthly Subscription Parking</h1>\n<p id=\"request_description_hint\">Tell us more about your needs and the area in which you are looking for parking. A team member will respond as soon as possible using the email or phone number you provide.</p>"
+      content_below_form: "<p style=\"text-align: center;\"><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      email_subject: "New Perm"
+      form: "e878-3be0-e78a"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: "<p style=\"text-align: center;\">Your contact request about Monthly or Subscription Parking has been successfully received.</p>\n<p style=\"text-align: center;\">A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "594c-0091-b2fc"
+  - id: "e265-90a8-1fa5"
+    web:
+      metaDescription: "Submit a media contact request to Secure Parking. Tell us more about your requirements and the business you represent."
+      metaTitle: "Media Enquires - Form"
+      metaLinkText: "Media Enquires - Form Page"
+      metaKeywords: null
+      pathPart: "media-enquiry"
+      path: "/en-au/contact-us/media-enquiry/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 883
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a media contact request</h1>\n<p>Tell us more about your requirements and the business you represent.</p>\n<p>Your request will be sent to the relevant person who will contact you <span style=\"letter-spacing: 0px;\">between 9:00am &ndash; 5:00pm AEST Monday to Friday.</span></p>"
+      content_below_form: "<p style=\"text-align: center;\"><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      email_subject: "Car park Information enquiries"
+      form: "2084-988c-bb1e"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p style=\"text-align: center;\">Your enquiry has been successfully received.</p>\n<p style=\"text-align: center;\">A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "d040-dc1a-47ac"
+  - id: "4700-e553-385d"
+    web:
+      metaDescription: "Submit your question on Monthly Motorcycle Parking to Secure Parking Australia & New Zealand. A representative will call or email you back.\n"
+      metaTitle: "Contact Us re Motorcycle Parking"
+      metaLinkText: "Motorcycle Parking - Form page"
+      metaKeywords: null
+      pathPart: "monthly-motorcycle-parking"
+      path: "/en-au/contact-us/monthly-motorcycle-parking/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 741
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request re Monthly Motorcycle Parking</h1>\n<p id=\"request_description_hint\">Tell us more about your needs and the area in which you are looking for parking, please ensure you state the parking is for a motorcycle. A team member will respond as soon as possible using the email or phone number you provide.</p>\n<p><span style=\"letter-spacing: 0px;\">Prefer to call us? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      content_below_form: null
+      email_subject: "New Perm Webform:"
+      form: "a905-7a16-3bc7"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: "<p>Your contact request re Monthly Motorcycle Parking has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "30f0-ba16-f478"
+  - id: "ceaf-f6d7-6296"
+    web:
+      metaDescription: "Submit this form to Secure Parking Australia & New Zealand to sign up for our newsletter filled with offers and discounts.\n"
+      metaTitle: "Newsletter Sign up"
+      metaLinkText: "Club Secure form page"
+      metaKeywords: null
+      pathPart: "club-secure"
+      path: "/en-au/contact-us/club-secure/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 745
+      listed: true
+    data:
+      content_above_form: "<h1 style=\"text-align: center;\">Submit a request</h1>\n<p id=\"request_description_hint\" style=\"text-align: center;\">Tell us more about what you would like to know about Club Secure.</p>\n<p style=\"text-align: center;\">A member of our support staff will respond as soon as possible.</p>"
+      content_below_form: null
+      email_subject: "General CP enquiries"
+      form: "a852-3f44-b82b"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p style=\"text-align: center;\">Your enquiry has been successfully received.</p>"
+      thank_you_page: "79fc-7245-406b"
+  - id: "48e7-3506-368b"
+    web:
+      metaDescription: ""
+      metaTitle: "sales@secureparking.com.au"
+      metaLinkText: "sales@secureparking.com.au"
+      metaKeywords: null
+      pathPart: "salessecureparking-com-au"
+      path: "/en-au/salessecureparking-com-au/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 903
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a request re Overnight Parking</h1>\n<p>Tell us more about your requirements like the dates you are looking for parking overnight. A member of our team will respond as soon as possible.</p>\n<p><span style=\"letter-spacing: 0px;\">Prefer to call us? We are available between 9:00am &ndash; 5:00pm AEST: 02 8000 8790 (if you are in Australia) or 9:00am &ndash; 5:00pm NZST: 09 200 2400 (if you are in New Zealand).</span></p>"
+      content_below_form: null
+      email_subject: "Hotel and Overnight"
+      form: "3ad0-6e82-b533"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: null
+      thank_you_page: "79fc-7245-406b"
+  - id: "4d1c-16ef-0edb"
+    web:
+      metaDescription: "Thank you. Your enquiry re Overnight or Hotel Parking has been successfully received. A Secure Parking team member will contact you via email and/or by calling "
+      metaTitle: "Contact Us re Multi Day Parking"
+      metaLinkText: "Multi-Day, Overnight and Hotel Parking - Form Page"
+      metaKeywords: null
+      pathPart: "overnight-hotel-or-multi-day-parking"
+      path: "/en-au/contact-us/overnight-hotel-or-multi-day-parking/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 909
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request re Multi-Day Overnight Parking</h1>\n<p>Tell us more about your needs and how many nights/days parking you require. A member of our team will respond as soon as possible.</p>"
+      content_below_form: "<p style=\"text-align: center;\"><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      email_subject: "Hotel and Overnight"
+      form: "3ad0-6e82-b533"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: "<p style=\"text-align: center;\">Your enquiry has been successfully received.</p>\n<p style=\"text-align: center;\">A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "4b4d-723d-8430"
+  - id: "873a-738a-7b04"
+    web:
+      metaDescription: "Submit your question on Fleet or Advantage Parker to Secure Parking Australia. A representative will call or email you back.\n"
+      metaTitle: "Contact Us re Fleet or Advantage Parker"
+      metaLinkText: "Becoming a New Advantage Parker - Form page"
+      metaKeywords: null
+      pathPart: "fleet-or-advantage-parker"
+      path: "/en-au/contact-us/fleet-or-advantage-parker/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 742
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request</h1>\n<p id=\"request_description_hint\">Tell us more about your Business Fleet needs. A team member will respond as soon as possible using the email or phone number you provide.</p>\n<p><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      content_below_form: null
+      email_subject: "New Advantage Parker Webform"
+      form: "0ce2-e526-cbcf"
+      recipient_email_address: "advantageparker@secureparking.com.au"
+      thank_you_message: "<p>Your contact request re Fleet parking or Advantage Parker has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "dad5-24b8-58b6"
+  - id: "d800-d71d-c11f"
+    web:
+      metaDescription: "Submit your question and learn more about Secure Parking  Business Portal. A representative will call or email you back."
+      metaTitle: "Contact Us re Business Portal"
+      metaLinkText: "Business Portal - Form Page"
+      metaKeywords: null
+      pathPart: "business-portal-account"
+      path: "/en-au/contact-us/business-portal-account/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 743
+      listed: true
+    data:
+      content_above_form: "<div>\n<h1>Submit a contact request</h1>\n<p>Tell us more about your business requirements and a team member will respond as soon as possible using the email or phone number you provide.</p>\n<p><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>\n</div>\n<p></p>"
+      content_below_form: null
+      email_subject: "New BP"
+      form: "7222-409d-9d8f"
+      recipient_email_address: "businessportal@secureparking.com.au"
+      thank_you_message: "<p>Your enquiry has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "ef8d-8f9b-84e0"
+  - id: "69d6-a9d4-495a"
+    web:
+      metaDescription: "Submit an enquiry re what Secure Parking Australia & New Zealand can do to help with a parking asset. A representative will call or email you back.\n"
+      metaTitle: "Contact Us re Corporate Services"
+      metaLinkText: "Business Management Services - Form Page"
+      metaKeywords: null
+      pathPart: "business-management-services"
+      path: "/en-au/contact-us/business-management-services/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 744
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request</h1>\n<p>Tell us about your requirements and the region or city.</p>\n<p>Your request will be directed to the Business Development team with expertise in your area, who will respond directly to you via the contact details provided.</p>\n<p><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</span></p>"
+      content_below_form: null
+      email_subject: "Business Management Services - For My Car Park"
+      form: "a089-c738-7ed8"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p>Your enquiry has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "2403-0d63-b5d9"
+  - id: "6e4f-74b9-7d8f"
+    web:
+      metaDescription: "Submit your question re booking parking online with Secure Parking Australia and New Zealand car park. Click here.\n"
+      metaTitle: "Contact Us re Booking Parking"
+      metaLinkText: "Booking - Form Page"
+      metaKeywords: null
+      pathPart: "book-parking"
+      path: "/en-au/contact-us/book-parking/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 747
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request</h1>\n<p id=\"request_description_hint\">Tell us more about your booking including car park details and reference number. A member of our support staff will respond as soon as possible.</p>\n<p>Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</p>\n<p></p>"
+      content_below_form: null
+      email_subject: "Online booking enquiries"
+      form: "a852-3f44-b82b"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p>Your enquiry has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "5c96-41c7-e782"
+  - id: "55d3-cd5a-cb15"
+    web:
+      metaDescription: "Submit your question on Vouchers and Gift Cards to Secure Parking Australia & New Zealand. A representative will call or email you back.\n"
+      metaTitle: "Contact Us re Vouchers and Gift Cards"
+      metaLinkText: "Vouchers and Gift Cards - Form Page"
+      metaKeywords: null
+      pathPart: "vouchers-gift-cards"
+      path: "/en-au/contact-us/vouchers-gift-cards/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 750
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact enquiry</h1>\n<p>Tell us about your Parking Voucher or Gift Card query. A member of our support staff will respond as soon as possible.</p>\n<p>Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</p>"
+      content_below_form: "<p><span style=\"letter-spacing: 0px;\">Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST or NZST on: 02 8000 8790 (if you are in Australia) or 09 200 2400 (if you are in New Zealand).</span></p>"
+      email_subject: "Gift Card enquiries"
+      form: "fc39-1fca-2f94"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: "<p>Your enquiry has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "3ad6-4a65-59d2"
+  - id: "211f-840f-e96b"
+    web:
+      metaDescription: "Find answers to your questions re payment or receipts with Secure Parking Australia and New Zealand. Click here."
+      metaTitle: "Contact Us re receipt"
+      metaLinkText: "A Receipt for Parking / Phone Payment Form Page"
+      metaKeywords: null
+      pathPart: "parking-receipt"
+      path: "/en-au/contact-us/parking-receipt/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 749
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request</h1>\n<p id=\"request_description_hint\">Tell us more about your request and a member of our support staff will respond as soon as possible.</p>\n<p>Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</p>"
+      content_below_form: null
+      email_subject: "Receipt Requests"
+      form: "0689-8e19-40ef"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p>Your enquiry has been successfully received.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "055d-8f5f-852f"
+  - id: "1b27-e5f6-7d02"
+    web:
+      metaDescription: "Submit your question to Customer Service at Secure Parking Australia & New Zealand. A representative will call or email you back.\n"
+      metaTitle: "Contact Us for Customer Service Help"
+      metaLinkText: "Customer Service - Form Page"
+      metaKeywords: null
+      pathPart: "customer-service"
+      path: "/en-au/contact-us/customer-service/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 748
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a contact request for customer service</h1>\n<p>Tell us why you are contacting Secure Parking, and the car park location you are in.</p>\n<p>A member of our Customer Service Team will respond as soon possible via the contact details provided.</p>\n<p>Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</p>"
+      content_below_form: null
+      email_subject: "Car park Information enquiries"
+      form: "a852-3f44-b82b"
+      recipient_email_address: "help@secureparking.com.au"
+      thank_you_message: "<p>Your enquiry has been successfully received and directed to the Customer Service Team.</p>\n<p>A Secure Parking team member will contact you via the email or phone number provided.</p>"
+      thank_you_page: "7f2c-a2a8-da9a"
+  - id: "2d00-0bbe-39cc"
+    web:
+      metaDescription: "Submit your enquiry re subscription or longer term parking at a Secure Parking car park. A representative will call or email you back.\n"
+      metaTitle: "Contact Us - Sales Enquiry"
+      metaLinkText: "Sales Enquiry - Form Page"
+      metaKeywords: null
+      pathPart: "sales-enquiry"
+      path: "/en-au/contact-us/sales-enquiry/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/contact-us/"
+    meta:
+      sort: 746
+      listed: true
+    data:
+      content_above_form: "<h1>Submit a sales enquiry</h1>\n<p>Tell us more about your needs and the area in which you are looking for parking. A team member will respond as soon as possible using the email or phone number you provide.</p>\n<p>Prefer to call? We are available between 9:00am &ndash; 5:00pm AEST on: 612 8000 8790</p>"
+      content_below_form: null
+      email_subject: "New Perm Webform"
+      form: "a852-3f44-b82b"
+      recipient_email_address: "sales@secureparking.com.au"
+      thank_you_message: ""
+      thank_you_page: "594c-0091-b2fc"

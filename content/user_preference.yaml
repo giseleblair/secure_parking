@@ -1,0 +1,64 @@
+
+  - id: "e8e9-f78f-81a4"
+    web:
+      metaDescription: "Opt out of all the notifications, subscriptions and information materials"
+      metaTitle: "Opt out"
+      metaLinkText: "Opt out"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 297
+      listed: true
+    data:
+      description: "By setting the toggle to green you are opting-out from receiving marketing communications from Secure Parking.    This includes deals, offers and discounts. You cannot resubscribe with the same email address after opting-out and will be unable to receive any discounts or offers."
+      display_name: "Opt-out"
+      sort: 1
+      value: "optOut"
+  - id: "34a9-0f93-9f42"
+    web:
+      metaDescription: "Description regarding marketing material"
+      metaTitle: "Receive Marketing Material"
+      metaLinkText: "Receive Marketing Material"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 296
+      listed: true
+    data:
+      description: "Update notifications - TBC to CEP or should link go to marketing preferences web page with form to snooze/unsub in Acoustic. If unsubscribed users will not be able to receive any to email/sms address/number in future. Opt out is also not to transactional confirmation and need to be clear I prefer to be contacted via email only"
+      display_name: "Notifications - marketingPromotions"
+      sort: 1
+      value: "MarketingPromotions"
+  - id: "bb6e-77d1-b565"
+    web:
+      metaDescription: "Description regarding event marketing"
+      metaTitle: "Receive Event updates"
+      metaLinkText: "Receive Event updates"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 298
+      listed: true
+    data:
+      description: "Update notifications - TBC to CEP or should link go to marketing preferences web page with form to snooze/unsub in Acoustic. If unsubscribed users will not be able to receive any to email/sms address/number in future. Opt out is also not to transactional confirmation and need to be clear I prefer to be contacted via email only"
+      display_name: "Notifications - marketingEvent "
+      sort: 2
+      value: "MarketingEvent"

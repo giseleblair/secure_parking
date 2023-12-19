@@ -1,0 +1,20 @@
+
+  - id: "48d7-f721-24fe"
+    web:
+      metaDescription: "Terms and conditions"
+      metaTitle: "Terms and conditions"
+      metaLinkText: "Terms and conditions"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 440
+      listed: true
+    data:
+      content: "<p>Prior to confirming payment you are required to read and accept the <a href=\"/about/stuff-to-know/booking-terms/\" title=\"Booking terms and conditions\" target=\"_blank\" rel=\"noopener\">terms and conditions</a> and acknowledge that car parks may be unavailable due to unforeseen circumstances. In which case you may be directed to another car park or we may refund your Parking Fee if the selected car park is unavailable at entry time.</p>\n<p><a href=\"/about/stuff-to-know/\" title=\"available here for authoring\" target=\"_blank\" rel=\"noopener\">Click here for full terms and conditions</a></p>"
+      title: "Terms & Conditions"

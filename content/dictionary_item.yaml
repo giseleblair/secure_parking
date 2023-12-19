@@ -1,0 +1,3060 @@
+
+  - id: "bba1-960c-01e7"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 354
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.ProductCategoryNotMet"
+      value: "The Promotion Code you have entered is not applicable in this case. Please try again with a different selection."
+  - id: "0139-7334-58e3"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 349
+      listed: true
+    data:
+      key: "Text.Cart.ImportantInformationDescription"
+      value: "Note: We may direct you to another car park or refund parking fee/s if your selected car park is unavailable due to unforeseen circumstances."
+  - id: "0dfd-2aed-8a6c"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.InvalidRepriceCancel.MinimumArrivalTimeForAmendNotMet"
+      metaLinkText: "Text.Misc.Error.InvalidRepriceCancel.MinimumArrivalTimeForAmendNotMet"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 27835
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidRepriceCancel.MinimumArrivalTimeForAmendNotMet"
+      value: "Cancellation is not possible due to the minimum cancellation time policy at the carpark."
+  - id: "19f2-7630-f13a"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Payment.IncorrectCountryCard.NewZealand"
+      metaLinkText: "Text.Payment.IncorrectCountryCard.NewZealand"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 889
+      listed: true
+    data:
+      key: "Text.Payment.IncorrectCountryCard.NewZealand"
+      value: "You have no applicable payment methods added for a New Zealand account. Please add or re-add your card details in order to continue."
+  - id: "a8a8-9d4c-5ebd"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 326
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.MinimumArrivalTimeForAmendNotMet"
+      value: "Chosen car park start date/time does not meet the car parks minimum arrival time. Please select a later start time."
+  - id: "bdec-95c9-4408"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.InvalidReprice.SearchNoCarparksFound.WeekendEarlyBird"
+      metaLinkText: "Text.Misc.Error.InvalidReprice.SearchNoCarparksFound.WeekendEarlyBird"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 46159
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.SearchNoCarparksFound.WeekendEarlyBird"
+      value: "Early Bird Parking is not available on the weekend. Please try another option. "
+  - id: "bfb5-0c61-cd2f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 320
+      listed: true
+    data:
+      key: "Text.Misc.BookingExitBeforeEntry"
+      value: "Your exit time must be after your entry time, please change dates or select Leave next day below"
+  - id: "93c0-7a3f-a17e"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 357
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.MinimumArrivalTimeNotMet"
+      value: "Start date/time invalid. Edit or amend to proceed."
+  - id: "0fae-835f-9346"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.AddingCartItem"
+      metaLinkText: "Text.Misc.Error.AddingCartItem"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 3877
+      listed: true
+    data:
+      key: "Text.Misc.Error.AddingCartItem"
+      value: "An error occurred when adding your booking to your cart. Please refresh, empty cart or select another product."
+  - id: "0d12-5c7a-8100"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.CarPark.Search.How"
+      value: "How long would you like to park today?"
+  - id: "8bb6-5aa6-1d71"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 358
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.BayReservationFailed"
+      value: "There are no spaces available in your chosen car park for these dates/times"
+  - id: "11c5-b0e5-4d8f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 326
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.BayLimitsExceeded"
+      value: "There are no spaces available in your chosen car park for start date/time"
+  - id: "2fde-d707-3436"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 347
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.CarParkNotFound"
+      value: "Your selected car park is not available for these dates/times"
+  - id: "48b4-01db-ce5a"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 358
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.InvalidPercentageDiscountAmount"
+      value: "The Promotion Code you have entered has an invalid percentage discount amount."
+  - id: "f31c-8368-0d6a"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.GiftCardAddFailed"
+      metaLinkText: "Text.Misc.Error.GiftCardAddFailed"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 464
+      listed: true
+    data:
+      key: "Text.Misc.Error.GiftCardAddFailed"
+      value: "An error occurred when applying your gift card"
+  - id: "f855-6c42-6016"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.InvalidReprice.SearchNoCarparksFound"
+      metaLinkText: "Text.Misc.Error.InvalidReprice.SearchNoCarparksFound"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 607
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.SearchNoCarparksFound"
+      value: "There are no available car parks for these dates/times"
+  - id: "ec8c-287f-60da"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.Misc.BookingEntryTooSoon"
+      value: "Your booking entry time must be 15 mins in the future, please change entry time"
+  - id: "8fbe-f3ae-038b"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.CarPark.Search.NotBookableOnline"
+      metaLinkText: "Text.CarPark.Search.NotBookableOnline"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 951
+      listed: true
+    data:
+      key: "Text.CarPark.Search.NotBookableOnline"
+      value: "View&nbsp;Car&nbsp;Park"
+  - id: "a32f-e749-b484"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 349
+      listed: true
+    data:
+      key: "Text.Vehicles.Utils.Edit"
+      value: "Edit "
+  - id: "3ddb-7a42-4b73"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.BookingFail"
+      metaLinkText: "Text.Misc.Error.BookingFail"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 898
+      listed: true
+    data:
+      key: "Text.Misc.Error.BookingFail"
+      value: "Please enable your location services to use this option"
+  - id: "5a81-6947-08ad"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.LocationServicesDisabled"
+      metaLinkText: "Text.Misc.Error.LocationServicesDisabled"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 897
+      listed: true
+    data:
+      key: "Text.Misc.Error.LocationServicesDisabled"
+      value: "Please enable your location services to use this option"
+  - id: "dd74-1fc4-309e"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.AccountDetailsNotCompleted"
+      metaLinkText: "Text.Misc.Error.AccountDetailsNotCompleted"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 896
+      listed: true
+    data:
+      key: "Text.Misc.Error.AccountDetailsNotCompleted"
+      value: "Please complete your personal details before accessing this setting"
+  - id: "5fc0-736b-da38"
+    web:
+      metaDescription: ""
+      metaTitle: "Test.Misc.Error.PaymentDeclined"
+      metaLinkText: "Test.Misc.Error.PaymentDeclined"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 895
+      listed: true
+    data:
+      key: "Test.Misc.Error.PaymentDeclined"
+      value: "Payment has been declined. Please check your card details and try again."
+  - id: "0309-f6aa-acf9"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Payment.IncorrectCountryCard.Australia"
+      metaLinkText: "Text.Payment.IncorrectCountryCard.Australia"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 894
+      listed: true
+    data:
+      key: "Text.Payment.IncorrectCountryCard.Australia"
+      value: "You have no applicable payment methods for booking within Australia. Please add or re-add your card details in order to continue with your booking"
+  - id: "f502-54f4-ca50"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.SearchError"
+      metaLinkText: "Text.Misc.Error.SearchError"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 893
+      listed: true
+    data:
+      key: "Text.Misc.Error.SearchError"
+      value: "An error occurred. Please refresh or search again"
+  - id: "7818-b7c9-a9f3"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Cart.ExitBetween"
+      metaLinkText: "Text.Cart.ExitBetween"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 892
+      listed: true
+    data:
+      key: "Text.Cart.ExitBetween"
+      value: "Exit Between"
+  - id: "1fd9-0330-383a"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.GiftCardAddOverTotalChangeAmount"
+      metaLinkText: "Text.Misc.Error.GiftCardAddOverTotalChangeAmount"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 891
+      listed: true
+    data:
+      key: "Text.Misc.Error.GiftCardAddOverTotalChangeAmount"
+      value: "Amount entered cannot be greater than the new cost difference"
+  - id: "c9cc-138a-4cc0"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Cart.Surcharge"
+      metaLinkText: "Text.Cart.Surcharge"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 890
+      listed: true
+    data:
+      key: "Text.Cart.Surcharge"
+      value: "Surcharge"
+  - id: "d4be-745f-4c0b"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Booking.UpdateBooking"
+      metaLinkText: "Text.Booking.UpdateBooking"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 888
+      listed: true
+    data:
+      key: "Text.Booking.UpdateBooking"
+      value: "Update Booking"
+  - id: "a825-88f7-2b55"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Cart.EnterBetween"
+      metaLinkText: "Text.Cart.EnterBetween"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 887
+      listed: true
+    data:
+      key: "Text.Cart.EnterBetween"
+      value: "Enter Between"
+  - id: "0f37-1acb-0b75"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice"
+      value: "We were unable to make the amendment requested."
+  - id: "df31-5ab2-9181"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 326
+      listed: true
+    data:
+      key: "Text.Vehicles.VanTruck"
+      value: "Van (over 2.2 metres)"
+  - id: "ab51-18ed-f9c5"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.VoucherNotFound"
+      value: "Promotion code not found"
+  - id: "f6e6-4efc-1f71"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 327
+      listed: true
+    data:
+      key: "Text.Misc.Error.SaveProfileFailed"
+      value: "There has been an error while saving your profile"
+  - id: "7f7b-04ef-d638"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 323
+      listed: true
+    data:
+      key: "Text.Misc.Success.PaymentSuccess"
+      value: "Payment Successful!"
+  - id: "d9af-f21e-c659"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 322
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.PastBookingDetailCannotShortenEndDate"
+      value: "Cannot shorten end date/time for past booking"
+  - id: "c0ec-1633-d333"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 317
+      listed: true
+    data:
+      key: "Text.Misc.Error.GiftCardAddOverAvailable"
+      value: "Amount entered cannot be greater than the available amount on the gift card"
+  - id: "0223-5400-5f17"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 318
+      listed: true
+    data:
+      key: "Text.Misc.Error.CartNotCleared"
+      value: "There was a problem clearing your cart"
+  - id: "ca9d-ef54-a5af"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 321
+      listed: true
+    data:
+      key: "Text.Cart.PinAndQRAccess"
+      value: "PIN & QR Access"
+  - id: "65c9-ab6f-0891"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 327
+      listed: true
+    data:
+      key: "Text.Account.NotAValidPostCode"
+      value: "is not a valid postcode"
+  - id: "0046-75ab-40dc"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 322
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidGiftCardRemoval"
+      value: "There was an error removing gift card"
+  - id: "d1de-a1d9-dfc8"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 326
+      listed: true
+    data:
+      key: "Fields.Payment.CVV"
+      value: "CVV"
+  - id: "9411-d38f-8080"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 323
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.VoucherNotValidYet"
+      value: "The Promotion Code you have entered is not valid yet."
+  - id: "f80c-d1d5-e908"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 321
+      listed: true
+    data:
+      key: "Text.CarPark.Search.Where"
+      value: "Where would you like to park?"
+  - id: "4675-cd18-8e96"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.Misc.Success.ItemRemoved"
+      value: "Item successfully removed from cart!"
+  - id: "7ff4-3963-8ef4"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 325
+      listed: true
+    data:
+      key: "Text.CarPark.Hide"
+      value: "Hide"
+  - id: "f9c3-1d35-4db3"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 322
+      listed: true
+    data:
+      key: "Text.Misc.Success.BookingCancelled"
+      value: "Booking cancelled successfully!"
+  - id: "fe4e-97f2-f573"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 325
+      listed: true
+    data:
+      key: "Text.Misc.Success.PromoCodeRemoved"
+      value: "Promo Code successfully removed"
+  - id: "7659-ccbf-ad41"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 326
+      listed: true
+    data:
+      key: "Text.Payment.AddCard"
+      value: "Add card"
+  - id: "5be6-3543-c816"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 323
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.GiftCardIsExpired"
+      value: "Gift card has expired"
+  - id: "824e-94e4-c1ad"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.Cart.PromotionalCodeApplied"
+      value: "Promotional code applied:"
+  - id: "a9e5-04ff-f749"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 326
+      listed: true
+    data:
+      key: "Text.Misc.Success.GiftCardAdded"
+      value: "Gift Card successfully added"
+  - id: "5a0e-854b-e141"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 324
+      listed: true
+    data:
+      key: "Text.Cart.ImportantInformation"
+      value: "Important information about your booking"
+  - id: "b2f6-0616-f8a7"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 319
+      listed: true
+    data:
+      key: "Text.Payment.EntryTime"
+      value: "Entry Time"
+  - id: "a9a7-c5a1-228f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 323
+      listed: true
+    data:
+      key: "Text.Misc.Success.CardAdded"
+      value: "Card successfully added!"
+  - id: "e8ac-8a98-c6c2"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 329
+      listed: true
+    data:
+      key: "Text.BookingAmend.RefundAmount"
+      value: "Refund amount"
+  - id: "ff0b-5ea8-9ca9"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Text.Misc.Success.VehicleUpdated"
+      value: "Successfully updated vehicle!"
+  - id: "d0fc-5de5-cbd7"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 340
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.VoucherIsExpired"
+      value: "The Promotion Code you have entered has expired and is no longer available"
+  - id: "4d5e-e13e-47ca"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Text.Misc.Error.PreferencesUpdateError"
+      value: "There was an error updating user preferences"
+  - id: "556e-e103-b08c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 335
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.DurationDiscountNotMet"
+      value: "The Promotion Code you have entered has not reached the duration discount."
+  - id: "909d-6a1d-dc66"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 334
+      listed: true
+    data:
+      key: "Text.Misc.Error.CardAddFailed"
+      value: "There was an error adding your card"
+  - id: "a24b-1a3c-4c31"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 331
+      listed: true
+    data:
+      key: "Text.Misc.Error.BookingAmendedFail"
+      value: "There was an error updating your booking"
+  - id: "4d3e-7d7a-e93e"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.MaximumAdvanceBookingDaysNotMet"
+      value: "Maximum advanced booking days"
+  - id: "91a1-226e-aacd"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 331
+      listed: true
+    data:
+      key: "Text.Payment.BookNow"
+      value: "Book Now"
+  - id: "47b8-d05c-6cb9"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Buttons.Booking.DownloadReceipt"
+      value: "Download receipt"
+  - id: "a948-6f19-2e40"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 336
+      listed: true
+    data:
+      key: "Text.BookingAmend.YourUpdatedBooking"
+      value: "Your updated booking"
+  - id: "3e80-93a9-3ef5"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 336
+      listed: true
+    data:
+      key: "Text.Vehicles.4WD"
+      value: "Large 4WD (2 metres)"
+  - id: "3077-ed2b-2c5b"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Placeholder.Payment.CardholderName"
+      value: "E.g. Jane A Wilson"
+  - id: "580a-06cd-8cba"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Text.Cart.EarlyBird"
+      value: "Earlybird"
+  - id: "bb2f-3e2c-6d3d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 338
+      listed: true
+    data:
+      key: "Placeholder.Payment.CVV"
+      value: "XXX"
+  - id: "b795-76ab-3f42"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Buttons.Cart.Remove"
+      value: "Remove"
+  - id: "6fcd-d241-1a67"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 340
+      listed: true
+    data:
+      key: "Text.Cart.OneBay"
+      value: "1 bay"
+  - id: "f2d0-f702-118e"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 330
+      listed: true
+    data:
+      key: "Text.Cart.ParkingCost"
+      value: "Parking cost"
+  - id: "f413-353c-d42f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 331
+      listed: true
+    data:
+      key: "Text.Vehicles.Sedan"
+      value: "Sedan (1.8 metres or less)"
+  - id: "1778-c977-8a8c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 330
+      listed: true
+    data:
+      key: "Text.Misc.Error.FetchCustomerDetails"
+      value: "Error found while attempting to fetch Customer details"
+  - id: "5882-bc74-399c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 337
+      listed: true
+    data:
+      key: "Text.Misc.Success.CartUpdated"
+      value: "Cart successfully updated!"
+  - id: "b6dc-b7c5-7535"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Text.Vehicles.Utils.AddAnotherVehicle"
+      value: "Add another vehicle to your account for easier billing and lot access."
+  - id: "6254-be79-c77c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 331
+      listed: true
+    data:
+      key: "Text.Payment.Cost"
+      value: "Cost (inc. GST)"
+  - id: "a3c5-5733-3770"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Text.Payment.ProceedToPayment"
+      value: "Proceed to Payment"
+  - id: "2a8e-bbd6-53cb"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 334
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.ApplicabilityRangeNotMet"
+      value: "The Promotion Code you have entered is not applicable"
+  - id: "4cdc-075b-ceb7"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 329
+      listed: true
+    data:
+      key: "Text.Payment.ExitTime"
+      value: "Exit Time"
+  - id: "09aa-d796-d573"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Buttons.Account.AddCard"
+      value: "Add card"
+  - id: "2632-d4df-73c7"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 339
+      listed: true
+    data:
+      key: "Text.Cart.PinAndQRAccessDescription"
+      value: "is accessible by QR Code and PIN. You can find both attached to your confirmation."
+  - id: "fa69-9bbe-f002"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 338
+      listed: true
+    data:
+      key: "Text.Misc.Success.CartCleared"
+      value: "The cart has been cleared!"
+  - id: "3917-90c7-a6ca"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 338
+      listed: true
+    data:
+      key: "Buttons.Cart.Remove"
+      value: "Remove"
+  - id: "3300-1603-3adc"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 337
+      listed: true
+    data:
+      key: "Text.Misc.Error.GiftCardAddOverTotal"
+      value: "Amount entered cannot be greater than the total cart value"
+  - id: "a678-bc32-fc97"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Placeholder.Payment.CardNumber"
+      value: "XXXX XXXX XXXX XXXX"
+  - id: "2a06-f086-1342"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 335
+      listed: true
+    data:
+      key: "Text.Misc.Error.LicenseNotUnique"
+      value: "Sorry, this license plate has already been added"
+  - id: "38c0-4f59-cd60"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Fields.Payment.CardholderName"
+      value: "Cardholder Name"
+  - id: "165c-4fa3-c2fb"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 330
+      listed: true
+    data:
+      key: "Buttons.Payment.DownloadCSV"
+      value: "Download CSV"
+  - id: "5c1e-03da-8ad5"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 328
+      listed: true
+    data:
+      key: "Fields.Payment.ExpiryDate"
+      value: "Expiry"
+  - id: "446e-79b1-f76e"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 334
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.SingleUseVoucherHasInvalidCarParks"
+      value: "The Promotion Code you have entered is not applicable to the Car Park or Product you have selected in your booking."
+  - id: "8d58-3a83-3070"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 331
+      listed: true
+    data:
+      key: "Text.Vehicles.Utils.UpdateDetailsOf"
+      value: "Update details of"
+  - id: "55c2-65d3-ba51"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 332
+      listed: true
+    data:
+      key: "Text.Cart.AddPromotionalCode"
+      value: "Add promotional code"
+  - id: "7863-93ca-8047"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 333
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.GiftCardNotFound"
+      value: "Gift card not found"
+  - id: "1a54-79b5-e5a1"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 347
+      listed: true
+    data:
+      key: "Text.Misc.Success.GiftCardRemoved"
+      value: "Gift Card successfully removed"
+  - id: "548a-4934-1328"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 349
+      listed: true
+    data:
+      key: "Text.Payment.ReceiptReference"
+      value: "Receipt Reference:"
+  - id: "d9e2-cf8e-351c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 341
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.VoucherNotAvailable"
+      value: "Promotion code not available"
+  - id: "bd4d-11eb-02cc"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 351
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidGiftCard"
+      value: "Invalid gift card"
+  - id: "0dd3-1cfc-ce2d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 345
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.VoucherLimitsExceeded"
+      value: "Promotion code limits exceeded"
+  - id: "a546-fe8a-28c4"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 346
+      listed: true
+    data:
+      key: "Text.Misc.BookingExitEntrySame"
+      value: "Your booking exit time must be more than 15 minutes after your booking entry time"
+  - id: "7f5e-e0fb-90e0"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 348
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCodeRemoval"
+      value: "There was an error removing promo code"
+  - id: "404b-e0dc-94b6"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 343
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.MissingDurationUnit"
+      value: "The Promotion Code you have entered is not applicable duration unit is missing in your booking."
+  - id: "29e6-dea6-650a"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 343
+      listed: true
+    data:
+      key: "Text.Payment.CarPark"
+      value: "Car Park"
+  - id: "cd39-9617-1d8d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 348
+      listed: true
+    data:
+      key: "Text.CarPark.Search.SelectProductForPricing"
+      value: "Select product for pricing"
+  - id: "61d8-5c1a-43a0"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 352
+      listed: true
+    data:
+      key: "Text.Misc.Error.PaymentFailed"
+      value: "Error processing transaction"
+  - id: "2626-c23a-a4d0"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 342
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.GiftCardIsInvalid"
+      value: "Gift card is not valid"
+  - id: "3e10-73b5-5879"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 343
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode"
+      value: "Invalid promotional code"
+  - id: "075a-53e6-e5a7"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 345
+      listed: true
+    data:
+      key: "Text.Misc.Success.VehicleRemoved"
+      value: "Successfully removed vehicle!"
+  - id: "7915-412c-28eb"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 352
+      listed: true
+    data:
+      key: "Text.BookingAmend.CancellationFee"
+      value: "Cancellation fee"
+  - id: "1e21-d8b9-6a37"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 350
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.VoucherIsConsumed"
+      value: "The Promotion Code you have entered has already been applied and is no longer available"
+  - id: "da7e-87f8-6b6a"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 344
+      listed: true
+    data:
+      key: "Buttons.Payment.Downloading"
+      value: "Downloading..."
+  - id: "2a65-53e2-0b89"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 341
+      listed: true
+    data:
+      key: "Text.BookingAmend.Cancellation"
+      value: "cancellation"
+  - id: "fce1-4d25-abf1"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 343
+      listed: true
+    data:
+      key: "Buttons.Payment.UpdateCard"
+      value: "Update card"
+  - id: "993f-c0aa-0fa8"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 351
+      listed: true
+    data:
+      key: "Text.Cart.Hourly"
+      value: "Hourly"
+  - id: "8868-d23c-eb3e"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 345
+      listed: true
+    data:
+      key: "Text.Misc.Error.BookingCancelFail"
+      value: "There was a problem cancelling your booking"
+  - id: "44e5-2e64-6d5f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 350
+      listed: true
+    data:
+      key: "Text.Account.Message"
+      value: "must be selected"
+  - id: "ab55-c82b-26ff"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 341
+      listed: true
+    data:
+      key: "Text.Cart.SellingFast"
+      value: "Selling fast!"
+  - id: "73d3-2986-b965"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 353
+      listed: true
+    data:
+      key: "Text.Misc.Success.AddToCart"
+      value: "Added to cart!"
+  - id: "3466-2d53-b04b"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 346
+      listed: true
+    data:
+      key: "Text.Payment.SelectPaymentMethod"
+      value: "Select payment method"
+  - id: "541d-ea31-8c0c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 344
+      listed: true
+    data:
+      key: "Text.Misc.Success.PromoCodeAdded"
+      value: "Promo Code successfully added"
+  - id: "5c9b-d1b7-b408"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 342
+      listed: true
+    data:
+      key: "Text.Misc.Success.VehicleAdded"
+      value: "Vehicle successfully added!"
+  - id: "61f8-be02-e867"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 350
+      listed: true
+    data:
+      key: "Buttons.Payment.DownloadReceipt"
+      value: "Download receipt"
+  - id: "1059-4319-054d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 352
+      listed: true
+    data:
+      key: "Text.CarPark.Show"
+      value: "Show"
+  - id: "adc3-5884-9881"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 352
+      listed: true
+    data:
+      key: "Text.Vehicles.Utils.AddNewVehicle"
+      value: "Add new vehicle"
+  - id: "3240-6ec1-5c8c"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 342
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.CarParkNotMatched"
+      value: "The Promotion Code you have entered is not applicable to the Car Park or Product you have selected in your booking"
+  - id: "2780-90f4-866d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 344
+      listed: true
+    data:
+      key: "Text.Cart.BookingFee"
+      value: "Booking fee"
+  - id: "ba6d-442b-1182"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 345
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidReprice.PastBookingDetailCannotAmendStartDate"
+      value: "Cannot amend start date/time for past booking"
+  - id: "ef3e-6d18-4c38"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 343
+      listed: true
+    data:
+      key: "Text.Misc.Success.BookingAmended"
+      value: "Booking amended successfully!"
+  - id: "70c6-8551-cff6"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 353
+      listed: true
+    data:
+      key: "Text.Payment.Booking"
+      value: "Booking"
+  - id: "92ee-a335-b7db"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 348
+      listed: true
+    data:
+      key: "Text.Cart.EnterAfter"
+      value: "Enter after"
+  - id: "a1b5-c37e-6fdb"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 348
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.UsageDaysNotMet"
+      value: "The Promotion Code you have entered has not  reached usage days."
+  - id: "5765-bde1-c9db"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 356
+      listed: true
+    data:
+      key: "Text.Payment.FinaliseDetailsAndPay"
+      value: "Finalise Details & Pay"
+  - id: "f056-d9f8-e49d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 356
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.NoDiscountFromFixedValue"
+      value: "The Promotion Code you have entered has no discount from fixed value"
+  - id: "052d-a728-b6f1"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 356
+      listed: true
+    data:
+      key: "Buttons.Cart.Edit"
+      value: "Edit"
+  - id: "ff9f-3c5b-a84b"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 355
+      listed: true
+    data:
+      key: "Placeholder.Payment.ExpiryDate"
+      value: "Expiry"
+  - id: "26de-b0fe-6fea"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 356
+      listed: true
+    data:
+      key: "Text.Misc.Error.InvalidPromoCode.UsageTimeRangeNotMet"
+      value: "The Promotion Code you have entered is not within the usage start and end time."
+  - id: "0843-f646-bcad"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 359
+      listed: true
+    data:
+      key: "Fields.Payment.CardNumber"
+      value: "Card Number"
+  - id: "dc04-4001-0fee"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 357
+      listed: true
+    data:
+      key: "Text.Payment.BookingName"
+      value: "Booking name:"
+  - id: "8f1f-4096-1903"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 354
+      listed: true
+    data:
+      key: "Buttons.CarPark.Search.Book"
+      value: "Book"
+  - id: "15e0-28ce-574d"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 357
+      listed: true
+    data:
+      key: "Text.BookingAmend.CancelChange"
+      value: "Cancel change"
+  - id: "e614-75ce-08f0"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 357
+      listed: true
+    data:
+      key: "Text.Misc.Success.PreferencesUpdated"
+      value: "Preferences updated successfully!"
+  - id: "1de4-fe1c-1124"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 354
+      listed: true
+    data:
+      key: "Text.Misc.BookingTimePassed"
+      value: "Your booking times have passed, please change dates or enter new times"
+  - id: "f21c-24e5-188f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 358
+      listed: true
+    data:
+      key: "Text.Cart.Bays"
+      value: "Bays"
+  - id: "c3d5-7604-8345"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 361
+      listed: true
+    data:
+      key: "Text.Cart.ExitBefore"
+      value: "Exit before"
+  - id: "5285-e4e2-855a"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 355
+      listed: true
+    data:
+      key: "Text.Payment.AddNewCard"
+      value: "Add a new card"
+  - id: "ea9e-412f-6752"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 359
+      listed: true
+    data:
+      key: "Text.CarPark.Search.When"
+      value: "When would you like to park?"
+  - id: "bd15-e06e-ff39"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 355
+      listed: true
+    data:
+      key: "Text.Misc.Success.SaveProfileSuccess"
+      value: "Your details have been saved"
+  - id: "6d1c-33d5-7c25"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 358
+      listed: true
+    data:
+      key: "Text.Payment.UpdateCard"
+      value: "Update card"
+  - id: "62aa-876e-5559"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 358
+      listed: true
+    data:
+      key: "Buttons.Booking.CancelAll"
+      value: "Cancel all"
+  - id: "bd38-62c0-9a2f"
+    web:
+      metaDescription: ""
+      metaTitle: ""
+      metaLinkText: ""
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 360
+      listed: true
+    data:
+      key: "Buttons.Cart.Edit"
+      value: "Edit"
+  - id: "c26b-8887-5733"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.ItemNotRemoved"
+      metaLinkText: "Text.Misc.Error.ItemNotRemoved"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 362
+      listed: true
+    data:
+      key: "Text.Misc.Error.ItemNotRemoved"
+      value: "There was a problem removing this item"
+  - id: "bde1-e323-7eff"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.EmailAlreadyExists"
+      metaLinkText: "Text.Misc.Error.EmailAlreadyExists"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 368
+      listed: true
+    data:
+      key: "Text.Misc.Error.EmailAlreadyExists"
+      value: "There is another login using the email you've specified. Please login with that user instead, or change the email supplied."
+  - id: "36d5-d8f6-d1a0"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.Payment.AV600"
+      metaLinkText: "Text.Misc.Error.Payment.AV600"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 441
+      listed: true
+    data:
+      key: "Text.Misc.Error.Payment.AV600"
+      value: "The card number you added is invalid. Please check your card number and try again."
+  - id: "74a9-429c-be31"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.PaymentAddCardFailed"
+      metaLinkText: "Text.Misc.Error.PaymentAddCardFailed"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 442
+      listed: true
+    data:
+      key: "Text.Misc.Error.PaymentAddCardFailed"
+      value: "There was an error while adding your card. Please check card details and try again."
+  - id: "a841-af8b-e14e"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.BookingEvents.NearbyEvents"
+      metaLinkText: "Text.BookingEvents.NearbyEvents"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 443
+      listed: true
+    data:
+      key: "Text.BookingEvents.NearbyEvents"
+      value: "Nearby Events"
+  - id: "27b9-7428-2442"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.BookingAmend.GiftcardCreditAmount"
+      metaLinkText: "Text.BookingAmend.GiftcardCreditAmount"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 444
+      listed: true
+    data:
+      key: "Text.BookingAmend.GiftcardCreditAmount"
+      value: "Giftcard Credit Amount"
+  - id: "9f7b-fcde-167b"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.BookingAmend.TotalChangeCost"
+      metaLinkText: "Text.BookingAmend.TotalChangeCost"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 445
+      listed: true
+    data:
+      key: "Text.BookingAmend.TotalChangeCost"
+      value: "Total Change Cost"
+  - id: "0bda-4a29-a290"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Misc.Error.CartErrorGeneral"
+      metaLinkText: "Text.Misc.Error.CartErrorGeneral"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 465
+      listed: true
+    data:
+      key: "Text.Misc.Error.CartErrorGeneral"
+      value: "There is an error in your cart. Please check your items."
+  - id: "4406-013e-f3b0"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 495
+      listed: true
+    data:
+      key: "Text.Misc.Error.PaymentDetailsInvalid"
+      value: "Please add a valid card to complete your booking"
+  - id: "8f80-b954-e313"
+    web:
+      metaDescription: ""
+      metaTitle: "Text.Account.NotAValidMobileNumber"
+      metaLinkText: "Text.Account.NotAValidMobileNumber"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 587
+      listed: true
+    data:
+      key: "Text.Account.NotAValidMobileNumber"
+      value: "is not a valid mobile number"

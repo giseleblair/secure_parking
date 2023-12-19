@@ -1,0 +1,19 @@
+
+  - id: "2927-a764-9514"
+    web:
+      metaDescription: "Secure Parking customer account preferences. Customers can update their account preferences here at any time. Please ensure you save your user details."
+      metaTitle: "Preferences"
+      metaLinkText: "Preferences"
+      metaKeywords: null
+      pathPart: "preferences"
+      path: "/en-au/account/preferences/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/account/"
+    meta:
+      sort: 439
+      listed: true
+    data:
+      title: "Preferences"

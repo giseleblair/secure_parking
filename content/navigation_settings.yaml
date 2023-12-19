@@ -1,0 +1,77 @@
+
+  - id: "ee61-d7e0-47fd"
+    web:
+      metaDescription: ""
+      metaTitle: "Main Nav"
+      metaLinkText: "Main Nav"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 753
+      listed: true
+    data:
+      navigation_links: "96d8-b410-49c5,7d30-cc9c-4895"
+      title: "Main Nav"
+  - id: "fce8-58f4-d871"
+    web:
+      metaDescription: ""
+      metaTitle: "Top Nav Settings"
+      metaLinkText: "Top Nav Settings"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 174
+      listed: true
+    data:
+      navigation_links: "6754-6920-2501,e962-48eb-8c08,d7a9-bee8-c647"
+      title: "Top Nav Settings"
+  - id: "8c94-f0fd-68ed"
+    web:
+      metaDescription: ""
+      metaTitle: "Footer Settings"
+      metaLinkText: "Footer Settings"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 180
+      listed: true
+    data:
+      navigation_links: "9b4a-9e76-bc6d,bbc5-2940-0481,c884-7795-424c"
+      title: "Footer Settings"
+  - id: "2c08-a2ec-6e8c"
+    web:
+      metaDescription: ""
+      metaTitle: "Homepage Links"
+      metaLinkText: "Homepage Links"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 363
+      listed: true
+    data:
+      navigation_links: "7d30-cc9c-4895,1582-fad0-fdbf,1d5b-50a4-a34b,1e6c-96d7-74a0"
+      title: "Homepage Links"

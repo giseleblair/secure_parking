@@ -1,0 +1,19 @@
+
+  - id: "8134-e3d7-bf76"
+    web:
+      metaDescription: "Secure Parking customer account bookings. This page is only accessible should the customer have a booking with Secure Parking."
+      metaTitle: "Bookings"
+      metaLinkText: "Bookings"
+      metaKeywords: null
+      pathPart: "bookings"
+      path: "/en-au/account/bookings/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/account/"
+    meta:
+      sort: 309
+      listed: true
+    data:
+      title: "Account Bookings"

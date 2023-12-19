@@ -1,0 +1,19 @@
+
+  - id: "9566-fc31-a430"
+    web:
+      metaDescription: "Create or sign in to an account at Secure Parking today to find a car park near you and book online or on app hassle-free."
+      metaTitle: "Account"
+      metaLinkText: "Account"
+      metaKeywords: null
+      pathPart: "account"
+      path: "/en-au/account/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 250
+      listed: true
+    data:
+      title: "Account"

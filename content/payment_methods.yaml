@@ -1,0 +1,18 @@
+
+  - id: "6616-d759-0c3d"
+    web:
+      metaDescription: "Secure Parking customer account tab to manage payment methods. This page is only visible if you have an account and are signed into that account. "
+      metaTitle: "Payment Methods"
+      metaLinkText: "Payment Methods"
+      metaKeywords: null
+      pathPart: "payment-methods"
+      path: "/en-au/account/payment-methods/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/en-au/account/"
+    meta:
+      sort: 314
+      listed: true
+    data: {}

@@ -1,0 +1,22 @@
+
+  - id: "8e3a-1e9d-96b8"
+    web:
+      metaDescription: "Pre-Pay Parking Online provides you with a stress-free way of finding a parking spot in the city whilst saving you money on the normal parking rates."
+      metaTitle: "Compare Online and Drive-Up Parking"
+      metaLinkText: "Compare Parking Rates"
+      metaKeywords: null
+      pathPart: "car-park-rates"
+      path: "/en-au/car-park-rates/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 831
+      listed: true
+    data:
+      description: "<h2>Parking Rates and Car Park Features at a glance</h2>\n<p>Find parking near by or look for comparable car park rates by the hour or flat all day parking like Weekend or Night Parking.</p>\n<p>Also find car parks that offer discounted parking like the weekday daily parking for commuters known as Early Bird Parking.</p>\n<p>Secure Parking can be pre-paid for up to 45 days in advance and up to 15 minutes before you need to park.</p>\n<p>To view car parks where Pre-Paid Online Parking is available and compare prices click on the city or region you are looking for parking in.</p>"
+      description_old: "Disclaimer:\n\nThe prices are subject to change.\nParking rates are current for today but may vary.\nSpecial event dynamic pricing applies at some car parks when there is an event at a near by venue due to high demand. Please review before confirming payment.\nCar Parks may be unavailable due to unforeseen circumstances. We may direct you to another car park or refund your Parking Fee if your selected car park is unavailable at your entry time."
+      location_selector: "2246-8244-f965,9d20-fcd8-bc87,99c5-27f4-c24e,c07e-08da-657c,3c6c-9e48-e9cc,7707-3d5f-9eb6,cd95-aba1-342d,d175-93e7-6faf,60bc-6d47-0561,36a1-78b6-c626,2721-24d2-a7cb,00f4-a4a9-e6a7"
+      title: "Compare Parking Rates"
