@@ -1,0 +1,3 @@
+{
+    "maxAdvanceBooking": {{ each moq_carpark_details as carpark sort by max_advance_booking_days DESC limit 1}}{{carpark.name}}{{carpark.max_advance_booking_days}}{{end-each}}
+}

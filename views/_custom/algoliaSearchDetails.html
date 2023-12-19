@@ -1,0 +1,227 @@
+{{ $carpark_details_zuid = 6-92dcd5e4ec-p87j2s }}
+{{ $news_article_zuid = 6-e0c5fe8ab3-sht9s4 }}
+{{ $offer_zuid = 6-e4d4a69ea3-bhh07x }}
+{{ $team_zuid = 6-8ca3ffc0f3-bmcq2d }}
+{{ $home_zuid = 6-c693ffa58a-klt9ph }}
+{{ $carpark_search_zuid = 6-f4c5fa83f7-ht94ld }}
+{{ $location_zuid = 6-9ad2a3d69a-nmw3jb }}
+{{ $offer_listing_zuid = 6-94b4878b96-hb9g93 }}
+{{ $team_listing_zuid = 6-80b2fa94f0-cm2sp2 }}
+{{ $news_listing_zuid = 6-ba85b48290-c1p68p }}
+{{ $location_list_zuid = 6-c0ddfdaeb1-42mlzn }}
+{{ $simple_page_zuid = 6-f4b088a68a-1k60vw }}
+
+[
+
+{{ if {get_var.type} == '' || {get_var.type} == {$simple_page_zuid } }}
+    {{each simple_page as simple_page_item}}
+    {
+        "title":"{{simple_page_item.seo_meta_title}}",
+        "keywords":"{{simple_page_item.seo_meta_keywords}}",
+        "description":"{{simple_page_item.seo_meta_description}}",
+        "imageZuid":"{{simple_page_item.image}}",
+        "type":"simple_page",
+        "content": {{simple_page_item.toJson(1,false)}},
+        "objectID": "{{simple_page_item.zuid}}",
+        "templateZuid": "{{$simple_page_zuid}}"
+    }
+    {{ if {simple_page_item._length} != {simple_page_item._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+{{ if {get_var.type} == '' || {get_var.type} == {$carpark_details_zuid} }}
+    {{each carpark_details as carpark}}
+    {
+        "title":"{{carpark.seo_meta_title}}",
+        "keywords":"{{carpark.seo_meta_keywords}}",
+        "description":"{{carpark.seo_meta_description}}",
+        "imageZuid":"{{carpark.carpark_image}}",
+        "type":"carpark_details",
+        "content": {"title":"{{carpark.seo_meta_title}}","content":"{{carpark.seo_meta_description.escapeForJs()}} - {{carpark.description.escapeForJs()}}"},(**{{carpark.toJson(2,false)}},**)
+        "objectID": "{{carpark.zuid}}",
+        "templateZuid": "{{$carpark_details_zuid}}"
+    }
+    {{ if {carpark._length} != {carpark._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' || {get_var.type} == {$news_article_zuid} }}
+    {{each news_article as news}}
+    {
+        "title":"{{news.seo_meta_title}}",
+        "keywords":"{{news.seo_meta_keywords}}",
+        "description":"{{news.seo_meta_description}}",
+        "imageZuid":"{{news.article_image}}",
+        "type":"news_article",
+        "content": {{news.toJSON(1,false)}},
+        "objectID": "{{news.zuid}}",
+        "templateZuid": "{{$news_article_zuid}}"
+    }
+    {{ if {news._length} != {news._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' || {get_var.type} == {$offer_zuid} }}
+    {{each offer_item as offer}}
+    {
+        "title":"{{offer.seo_meta_title}}",
+        "keywords":"{{offer.seo_meta_keywords}}",
+        "description":"{{offer.seo_meta_description}}",
+        "imageZuid":"{{offer.deal_image}}",
+        "type":"offer",
+        "content":  {"title":"{{offer.seo_meta_title}}","content":"{{offer.content.escapeForJs()}}"},
+        "objectID": "{{offer.zuid}}",
+        "templateZuid": "{{$offer_zuid}}"
+    }
+    {{ if {offer._length} != {offer._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$team_zuid} }}
+    {{each team_item as team}}
+    {
+        "title":"{{team.seo_meta_title}}",
+        "keywords":"{{team.seo_meta_keywords}}",
+        "description":"{{team.seo_meta_description}}",
+        "imageZuid":"{{team.article_image}}",
+        "type":"team",
+        "content": {{team.toJSON(1,false)}},
+        "objectID": "{{team.zuid}}",
+        "templateZuid": "{{$team_zuid}}"
+    }
+    {{ if {team._length} != {team._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$home_zuid} }}
+    {{each homepage as home}}
+    {
+        "title":"{{home.seo_meta_title}}",
+        "keywords":"{{home.seo_meta_keywords}}",
+        "description":"{{home.seo_meta_description}}",
+           {{ each home_banner as banner limit 1 }}
+        "imageZuid":"{{banner.banner_img}}",
+         {{ end-each }}
+        "type":"home",
+        "content": {{home.toJSON(1,false)}},
+        "objectID": "{{home.zuid}}",
+        "templateZuid": "{{$home_zuid}}"
+    }
+    {{ if {home._length} != {home._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$carpark_search_zuid} }}
+    {{each car_park_search as carpark_search}}
+    {
+        "title":"{{carpark_search.seo_meta_title}}",
+        "keywords":"{{carpark_search.seo_meta_keywords}}",
+        "description":"{{carpark_search.seo_meta_description}}",
+        "type":"carpark_search",
+        "content": {{carpark_search.toJSON(1,false)}},
+        "objectID": "{{carpark_search.zuid}}",
+        "templateZuid": "{{$carpark_search_zuid}}"
+    }
+    {{ if {carpark_search._length} != {carpark_search._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$location_zuid} }}
+    {{each location as location}}
+    {
+        "title":"{{location.seo_meta_title}}",
+        "keywords":"{{location.seo_meta_keywords}}",
+        "description":"{{location.seo_meta_description}}",
+        "type":"location",
+        "content": {{location.toJSON(1,false)}},
+        "objectID": "{{location.zuid}}",
+        "templateZuid": "{{$location_zuid}}"
+    }
+    {{ if {location._length} != {location._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$offer_listing_zuid} }}
+    {{each team_item as offer_listing}}
+    {
+        "title":"{{offer_listing.seo_meta_title}}",
+        "keywords":"{{offer_listing.seo_meta_keywords}}",
+        "description":"{{offer_listing.seo_meta_description}}",
+        "type":"offer_listing",
+        "content": {{offer_listing.toJSON(1,false)}},
+        "objectID": "{{offer_listing.zuid}}",
+        "templateZuid": "{{$offer_listing_zuid}}"
+    }
+    {{ if {offer_listing._length} != {offer_listing._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$team_listing_zuid} }}
+    {{each team_listing as team_listing}}
+    {
+        "title":"{{team_listing.seo_meta_title}}",
+        "keywords":"{{team_listing.seo_meta_keywords}}",
+        "description":"{{team_listing.seo_meta_description}}",
+        "type":"team_listing",
+        "content": {{team_listing.toJSON(1,false)}},
+        "objectID": "{{team_listing.zuid}}",
+        "templateZuid": "{{$team_listing_zuid}}"
+    }
+    {{ if {team_listing._length} != {team_listing._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$news_listing_zuid} }}
+    {{each news_listing as news_listing}}
+    {
+        "title":"{{news_listing.seo_meta_title}}",
+        "keywords":"{{news_listing.seo_meta_keywords}}",
+        "description":"{{news_listing.seo_meta_description}}",
+        "type":"news_listing",
+        "content": {{news_listing.toJSON(1,false)}},
+        "objectID": "{{news_listing.zuid}}",
+        "templateZuid": "{{$news_listing_zuid}}"
+    }
+    {{ if {news_listing._length} != {news_listing._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+
+{{ if {get_var.type} == '' ||  {get_var.type} == {$location_list_zuid} }}
+    {{each locations_list as location_list}}
+    {
+        "title":"{{location_list.seo_meta_title}}",
+        "keywords":"{{location_list.seo_meta_keywords}}",
+        "description":"{{location_list.seo_meta_description}}",
+        "imageZuid":"{{location_list.article_image}}",
+        "type":"location_list",
+        "content": {{location_list.toJSON(1,false)}},
+        "objectID": "{{location_list.zuid}}",
+        "templateZuid": "{{$location_list_zuid}}"
+    }
+    {{ if {location_list._length} != {location_list._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+{{end-if}}
+]

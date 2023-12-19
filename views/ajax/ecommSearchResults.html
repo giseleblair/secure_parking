@@ -1,0 +1,54 @@
+{{ include _env }}
+{{ $closestCarParks }}
+
+{{ $carparkGuid = get_var("id")}}
+{{each carpark_page as carpark}}
+(** Get the carpark details item**)
+(** Output {"zuid":carpark.zuid,"title":carpark.title} **)
+
+
+
+(** FE JS get /ajax/carparkdetails?id=guid **)
+
+<script>
+   var a = 'test';
+   console.log('script called');
+   {{ $closestCarParks = a }}
+   console.log({{$closestCarParks}});
+</script>
+
+
+(** {{ $currentSize = 0 }}
+{{ $bestPriceParks }}
+
+<div class="car-park-search-results__container">
+   <div class="wrapper">
+      <div class="car-park-search-results__divider-wrapper">
+         <div class="car-park-search-results__divider"></div>
+      </div>
+      <div class="car-park-search-results__title car-park-search-results__title--mobile">3 car parks near Botany</div>
+      <div class="car-park-search-results__title car-park-search-results__title--mobile car-park-search-results__title--all-parks">Car parks</div>
+      <div class="parking-tabs">
+         <div class="parking-tabs__tabs">
+            <div class="parking-tabs__tab closest">Closest</div>
+            <div class="parking-tabs__tab cheapest">Best Price</div>
+         </div>
+         <div class="parking-tabs__items closest">
+            {{each }}
+            {{end-each}}
+         </div>
+         <!-- past items -->
+         <div class="parking-tabs__items cheapest hidden">
+            {{each }}
+            {{ end-each}}
+         </div>
+      </div>
+   </div>
+</div> **)
+
+ {{ each api.json.post({$SpaFaWebProxy}/search/carparks) as result }}
+   {{result}}
+{{end-each}}
+<div>
+   Yay!
+</div>

@@ -1,0 +1,393 @@
+{{include _env}}
+{{$country = {get_var.country} }}
+<script type="text/javascript" src="{{$AdvamPaymentGateway}}"></script>
+<link rel="stylesheet" href="{{$AdvamPaymentGatewayCss}}" />
+{{$endpoint = {$SpaFaWebProxy}/validate/getToken/Insert/{$country} }}
+{{$endpoint}}
+
+<script>
+
+function onHostedFieldsInitialisationSuccess() {
+  // Do successful handling.
+  // Bind the hosted fields submmision handling to the click event of the Pay button.
+  console.log("init success");
+  var paymentButton = document.getElementById('payment-button');
+  paymentButton.addEventListener('click', submitHostedFields);
+  paymentButton.removeAttribute('disabled');
+}
+function onHostedFieldsInitialisationSuccess2() {
+  // Do successful handling.
+  // Bind the hosted fields submmision handling to the click event of the Pay button.
+  console.log("init success");
+  var paymentButton = document.getElementById('payment-button2');
+  paymentButton.addEventListener('click', submitHostedFields2);
+  paymentButton.removeAttribute('disabled');
+}
+function onHostedFieldsInitialisationFailure(error) {
+  console.log("init error: ");
+  console.log(error);
+}
+
+function submitHostedFields(event) {
+  console.log("Submitting hosted fields")
+  var paymentButton = document.getElementById('payment-button');
+  paymentButton.setAttribute('disabled', 'disabled');
+  var tokenisationResponse = document.getElementById('tokenisation-response').value;
+  console.log("Tokenisation Response is " + tokenisationResponse);
+  // Check the tokenisation data is not present to prevent the default form submit action and submit the hosted fields for ADVAM processing.
+  if(!tokenisationResponse) {
+    // Prevent the default form action.
+    event.preventDefault();
+    // Create the supported hosted fields request fields.
+    var hostedFieldsRequest = {
+      amount: "100",
+      billing: {
+        firstName: "John",
+        lastName: "Last",
+        addressLines: ["26 Franklin Street"],
+        locality: "Adelaide",
+        administrativeAreaCode: "AU-SA",
+        countryCode: "AU",
+        postalCode: "5000",
+        mobilePhoneNumber: "61412345678",
+        emailAddress: "email@advam.com"
+      }
+    };
+    // Call the hosted fields submit operation and wait for the event handlers to be called back.
+    webbankJs.hostedFields.submit(hostedFieldsRequest).then(onHostedFieldsSubmitSuccess, onHostedFieldsSubmitFailure);
+  }
+}
+function submitHostedFields2(event) {
+  console.log("Submitting hosted fields2")
+  var paymentButton = document.getElementById('payment-button2');
+  paymentButton.setAttribute('disabled', 'disabled');
+  var tokenisationResponse = document.getElementById('tokenisation-response2').value;
+  console.log("Tokenisation Response is " + tokenisationResponse);
+  // Check the tokenisation data is not present to prevent the default form submit action and submit the hosted fields for ADVAM processing.
+  if(!tokenisationResponse) {
+    // Prevent the default form action.
+    event.preventDefault();
+    // Create the supported hosted fields request fields.
+    var hostedFieldsRequest = {
+      amount: "100",
+      billing: {
+        firstName: "John",
+        lastName: "Last",
+        addressLines: ["26 Franklin Street"],
+        locality: "Adelaide",
+        administrativeAreaCode: "AU-SA",
+        countryCode: "AU",
+        postalCode: "5000",
+        mobilePhoneNumber: "61412345678",
+        emailAddress: "email@advam.com"
+      }
+    };
+    // Call the hosted fields submit operation and wait for the event handlers to be called back.
+    webbankJs.hostedFields.submit(hostedFieldsRequest).then(onHostedFieldsSubmitSuccess2, onHostedFieldsSubmitFailure);
+  }
+}
+//TODO pass response to cart to save payment details, verify response and save to cart
+function onHostedFieldsSubmitSuccess(tokenisationResponse) {
+  // Add the required tokenisation response data or the signature field prior submitting the form to the server-side application.
+  //var paymentForm = document.getElementById("payment-form");
+  // Base64 encode the response, Response to be decoded and validated on the server-side application.
+  document.getElementById("tokenisation-response").value = btoa(JSON.stringify(tokenisationResponse));
+  navigator.clipboard.writeText(tokenisationResponse.signature);
+  // TODO Sonia include
+  // $.post( "https://spa-fa-web-proxy-npr.azurewebsites.net/customers/f08b714b-ac96-433e-96ac-fc61feec417d/cards", {"Token":tokenisationResponse.signature}, function( data ) {
+  //   console.log(data);
+  // });
+
+  //paymentForm.submit();
+  console.log("onHostedFieldsSubmitSuccess");
+  console.log(tokenisationResponse);
+}
+//TODO pass response to cart to save payment details, verify response and save to cart
+function onHostedFieldsSubmitSuccess2(tokenisationResponse) {
+  // Add the required tokenisation response data or the signature field prior submitting the form to the server-side application.
+  //var paymentForm = document.getElementById("payment-form");
+  // Base64 encode the response, Response to be decoded and validated on the server-side application.
+  document.getElementById("tokenisation-response2").value = btoa(JSON.stringify(tokenisationResponse));
+  navigator.clipboard.writeText(tokenisationResponse.signature);
+  // TODO Sonia include
+  // $.post( "https://spa-fa-web-proxy-npr.azurewebsites.net/customers/f08b714b-ac96-433e-96ac-fc61feec417d/cards", {"Token":tokenisationResponse.signature}, function( data ) {
+  //   console.log(data);
+  // });
+
+  //paymentForm.submit();
+  console.log("onHostedFieldsSubmitSuccess2");
+  console.log(tokenisationResponse);
+}
+function onHostedFieldsSubmitFailure(error) {
+  console.log("submit error");
+  console.log(error);
+}
+function onWebbankJsInitialisationSuccess() {
+  webbankJs.hostedFields.initialise(hostedFieldsConfiguration).then(onHostedFieldsInitialisationSuccess, onHostedFieldsInitialisationFailure);
+}
+function onWebbankJsInitialisationSuccess2() {
+  webbankJs.hostedFields.initialise(hostedFieldsConfiguration2).then(onHostedFieldsInitialisationSuccess, onHostedFieldsInitialisationFailure);
+}
+function onWebbankJsInitialisationFailure(error) {
+    console.log("onWebbankJsInitialisationFailure");
+    console.log(error);
+}
+
+
+var hostedFieldsConfiguration = {
+  "fields": {
+    "cardholderName": {
+      "fieldName": "Cardholder Name",
+      "containerId": "hosted-cardholder-name",
+      "placeholder": "E.g. Jane A Wilson"
+    },
+    "cardNumber": {
+      "fieldName": "Card Number",
+      "containerId": "hosted-card-number",
+      "placeholder": "XXXX XXXX XXXX XXXX"
+    },
+    "expiryDate": {
+      "fieldName": "Expiry",
+      "containerId": "hosted-expiry-date",
+      "placeholder": "Expiry",
+      "format": "MM/YY"
+    },
+    "cvv": {
+      "fieldName": "CVV",
+      "containerId": "hosted-cvv",
+      "placeholder": "XXX"
+    }
+  },
+  "styles": {
+    "hostedFieldInvalid": {
+      "background-color": "#fff",
+      "color": "#F54747"
+    },
+    "hostedFieldValid": {
+      "background-color": "#fff",
+      "color": "#222"
+    },
+    "hostedFieldFocus": {
+      "background-color": "#fff",
+      "color": null
+    },
+    "hostedField": {
+      "background-color": "#fff",
+      "color": "#222",
+      "padding": "20px",
+      "font-size": "16px",
+    }
+  },
+  (**"events": {
+    "onFocus": "[the function name without quotes]",
+    "onBlur": "[the function name without quotes]",
+    "onInput": "[the function name without quotes]",
+    "onCardTypeChange": "[the function name without quotes]"
+  },
+  "threeDSecure": {
+    "cardBin": 400001,
+    "visibleInlineWrapperId": "visible-inline-wrapper-id",
+    "hiddenInlineWrapperId": "hidden-inline-wrapper-id"
+  },**)
+  "language": "en",
+  "supportedCardTypes": [
+    "AMEX",
+    "VISA",
+    "MASTERCARD",
+    "VISA DEBIT"
+  ]
+};
+
+
+var hostedFieldsConfiguration2 = {
+  "fields": {
+    "cardholderName": {
+      "fieldName": "Cardholder Name2",
+      "containerId": "hosted-cardholder-name2",
+      "placeholder": "E.g. Jane A Wilson"
+    },
+    "cardNumber": {
+      "fieldName": "Card Number2",
+      "containerId": "hosted-card-number2",
+      "placeholder": "XXXX XXXX XXXX XXXX"
+    },
+    "expiryDate": {
+      "fieldName": "Expiry2",
+      "containerId": "hosted-expiry-date2",
+      "placeholder": "Expiry",
+      "format": "MM/YY"
+    },
+    "cvv": {
+      "fieldName": "CVV2",
+      "containerId": "hosted-cvv2",
+      "placeholder": "XXX"
+    }
+  },
+  "styles": {
+    "hostedFieldInvalid": {
+      "background-color": "#fff",
+      "color": "#F54747"
+    },
+    "hostedFieldValid": {
+      "background-color": "#fff",
+      "color": "#222"
+    },
+    "hostedFieldFocus": {
+      "background-color": "#fff",
+      "color": null
+    },
+    "hostedField": {
+      "background-color": "#fff",
+      "color": "#222",
+      "padding": "20px",
+      "font-size": "16px",
+    }
+  },
+  "language": "en",
+  "supportedCardTypes": [
+    "AMEX",
+    "VISA",
+    "MASTERCARD",
+    "VISA DEBIT"
+  ]
+};
+
+//TODO wire into real endpoint
+{{each api.json.get({$endpoint}) as result }}
+  var clientId = "{{result.ReferenceId}}"
+  var clientToken = "{{result.Token}}"; 
+  //var clientId = "b7a59316-dc49-4b48-8289-5e5e9ac04af6";
+  //var clientToken = "eyJhbGciOiJFUzI1NiIsImtpZCI6InNpZ25pbmdLZXlfNjE3YjIzYzM4ZjFmMTA3YmFiZjVlMDQwODU3M2I1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNWU4ZDhiOS0yNGFhLTQ5ODEtOGFkZS05NmM5MmVjYTBlZjYiLCJpc3MiOiJjbGllbnRfNjE3YTJlMDRhMGZiMTdjZjMyNjIyMmEwYTRjODZiOCIsImN1c3RvbWVyQ29kZSI6IjEwMjcxNCIsInJlZmVyZW5jZSI6ImI3YTU5MzE2LWRjNDktNGI0OC04Mjg5LTVlNWU5YWMwNGFmNiIsInRyYW5zYWN0aW9uTW9kZSI6Ikluc2VydCIsInBheW1lbnRNZXRob2RzIjpbIkNhcmQiXSwiZmllbGRzIjp7ImNhcmRob2xkZXJOYW1lIjp7ImZpZWxkTmFtZSI6IkNhcmRob2xkZXIgTmFtZSIsImV2ZW50cyI6e30sImNvbnRhaW5lcklkIjoiaG9zdGVkLWNhcmRob2xkZXItbmFtZSIsInBsYWNlaG9sZGVyIjoiQ2FyZGhvbGRlciBOYW1lIiwidHlwZSI6bnVsbCwiZm9ybWF0IjpudWxsLCJyZXF1aXJlZCI6ZmFsc2V9LCJjYXJkTnVtYmVyIjp7ImZpZWxkTmFtZSI6IkNhcmQgTnVtYmVyIiwiZXZlbnRzIjp7fSwiY29udGFpbmVySWQiOiJob3N0ZWQtY2FyZC1udW1iZXIiLCJwbGFjZWhvbGRlciI6IkNhcmQgTnVtYmVyIiwidHlwZSI6bnVsbCwiZm9ybWF0IjpudWxsLCJyZXF1aXJlZCI6ZmFsc2V9LCJleHBpcnlEYXRlIjp7ImZpZWxkTmFtZSI6IkV4cGlyeSBEYXRlIiwiZXZlbnRzIjp7fSwiY29udGFpbmVySWQiOiJleHBpcnktZGF0ZSIsInBsYWNlaG9sZGVyIjoiRXhwaXJ5IERhdGUiLCJ0eXBlIjoiaW5wdXQiLCJmb3JtYXQiOiJNTS9ZWSIsInJlcXVpcmVkIjpmYWxzZX0sImN2diI6eyJmaWVsZE5hbWUiOiJDVlYiLCJldmVudHMiOnt9LCJjb250YWluZXJJZCI6Imhvc3RlZC1jdnYiLCJwbGFjZWhvbGRlciI6IkNWViIsInR5cGUiOm51bGwsImZvcm1hdCI6bnVsbCwicmVxdWlyZWQiOmZhbHNlfX0sImV4cCI6MTY2MzAzMDc3MiwiaWF0IjoxNjYzMDI4OTcyLCJuYmYiOjE2NjMwMjg5MTJ9.dac-Ki6JAsA5fc8pjfz_nhgcA6n3w3UTCQr35tNaV8VBmAO_T0dAeF4gk_ZQSu5dMH6lQaWw_dIQbw1mV2AMyA";
+  var webbankJs = new WebbankJs();
+  webbankJs.initialise(clientToken).then(onWebbankJsInitialisationSuccess, onHostedFieldsInitialisationFailure);
+  var webbankJs2 = new WebbankJs();
+  webbankJs.initialise(clientToken).then(onWebbankJsInitialisationSuccess2, onHostedFieldsInitialisationFailure);
+ {{end-each}}
+ 
+</script>
+
+<form id="payment-form" name="payment-form" method="post">
+  <div class="hosted-field-group">
+    <label for="hosted-cardholder-name" class="hosted-field-label required">Cardholder Name</label>
+    <div id="hosted-cardholder-name" class="hosted-field">
+      <!-- Cardholder name hosted field will be added here. -->
+    </div>
+    <p id="hosted-cardholder-name-error-message" for="hosted-cardholder-name" class="hosted-field-error-message-hidden"></p>
+  </div>
+  <div class="hosted-field-group">
+    <label for="hosted-card-number" class="hosted-field-label required">Card Number</label>
+    <div id="hosted-card-number" class="hosted-field">
+      <!-- Card number hosted field will be added here. -->
+    </div>
+    <p id="hosted-card-number-error-message" for="hosted-card-number" class="hosted-field-error-message-hidden"></p>
+  </div>
+      <div class="group-row">
+  <div class="hosted-field-group">
+    <label for="hosted-expiry-date" class="hosted-field-label required">Expiry</label>
+    <div id="hosted-expiry-date" class="hosted-field">
+      <!-- Expiry date hosted field will be added here. -->
+    </div>
+    <p id="hosted-expiry-date-error-message" for="hosted-expiry-date" class="hosted-field-error-message-hidden"></p>
+  </div>
+  <div class="hosted-field-group">
+    <label for="hosted-cvv" class="hosted-field-label required">Card Verification Value</label>
+    <div id="hosted-cvv" class="hosted-field">
+      <!-- CVV hosted field will be added here. -->
+    </div>
+    <p id="hosted-cvv-error-message" for="hosted-cvv" class="hosted-field-error-message-hidden"></p>
+  </div>
+  </div>
+  <input name="tokenisation-response" id="tokenisation-response" type="hidden">
+  <input name="payment-button" id="payment-button" type="submit" value="Add card" disabled="disabled">
+</form>
+
+<style>
+    .payment-form {
+        padding-bottom: 30px;
+    }
+    
+    .hosted-field {
+        border-radius: 3px;
+        border: none;
+        height: 58px;
+        font-family: 'Noto Sans';
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .hosted-field.hosted-field-invalid {
+        border: 2px solid #F54747;
+        margin-bottom: 5px;
+    }
+    
+    .hosted-field-focus {
+        box-shadow: none;
+    }
+    
+    .group-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    
+    #payment-button {
+        background-color: #0093d0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 9999px;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        line-height: 18px;
+        font-family: Roboto;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+    
+    #payment-button:hover {
+        background-color: #0055a5;
+        background-color: rgba(0, 85, 165, var(--bg-opacity));
+    }
+    
+    input#payment-button:disabled {
+        opacity: 30%;
+    }
+    
+    .hosted-field-label {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #222;
+    }
+    
+    .hosted-field-label.required::after {
+        color: #222;
+    }
+    
+    .hosted-field-error-message-visible {
+        position: static;
+        border: none;
+        color: #F54747;
+        background-color: transparent;
+        transform: none;
+        margin: 0;
+        border-radius: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+        padding-left: 0;
+        font-family: 'Noto Sans';
+        font-size: 14px;
+    }
+    
+    .hosted-field-error-message-visible:after {
+        content: none;
+    }
+    
+    @media only screen and (min-width: 1100px) {
+        #payment-button {
+            font-size: 18px;
+        }
+    }
+</style>

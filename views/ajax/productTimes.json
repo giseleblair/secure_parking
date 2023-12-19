@@ -1,0 +1,37 @@
+{{ $productId = {get_var.id} }}
+{{ $category = {get_var.category} }}
+
+(** Get the range for a given product rate id for earlybird ranges **)
+
+{{if {$productId} != '' }}
+{{ each moq_configuration_details as priceConfig where priceConfig.moqid = '{$productId}' }}
+  {   
+      "startRange":"{{priceConfig.entry_start_time}} - {{priceConfig.entry_end_time}}",
+      "endRange":"{{priceConfig.exit_start_time}} - {{priceConfig.exit_end_time}}"
+  }
+{{ end-each }}
+{{ end-if }}
+
+(** Get the appropriate start and end time for an earlybird search **)
+
+{{if {$category} != '' }}
+{{ each moq_product_details as productDetails where productDetails.category = '{$category}' }}
+    {{ $maxStart = "05:00:00" }}
+    {{ $minEnd = "16:00:00" }}
+   {{ each moq_rate_details as rate where find_in_set(rate.zuid, '{productDetails.rates}')  }}
+        {{ each moq_configuration_details as priceConfig where find_in_set(priceConfig.zuid, '{rate.configurations}')  }}
+            {{if {$maxStart} < '{priceConfig.entry_start_time}' }}
+               {{ $maxStart = {priceConfig.entry_start_time} }}
+            {{end-if}}
+            {{if '{priceConfig.exit_start_time}' < {$minEnd} }}
+                {{ $minEnd = {priceConfig.exit_start_time} }}
+            {{end-if}}
+        {{ end-each }}
+    {{ end-each }}
+
+  {   
+      "maxStart":"{{$maxStart}}",
+      "minEnd":"{{$minEnd}}"
+  }
+{{ end-each }}
+{{ end-if }}

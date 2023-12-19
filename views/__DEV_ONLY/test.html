@@ -1,0 +1,145 @@
+{{ include _env }}
+{{ $showOnlyCarparks = {get_var.carparks-only} }}
+{{ $currentSize = 0 }}
+{{$SpaFaWebProxy}}
+{{if {$showOnlyCarparks} == 'true' }}
+    <h3 class="search-widget__subtitle" style="padding-top: 2rem;">Car Parks</h3>
+{{end-if}}
+{{ each api.json.get({$SpaFaWebProxy}/search/{get_var.term}) as result }}
+    {{if {result.error} }}
+       {{ each api.json.get({$SpaFaWebProxy}/search/{get_var.term}) as retryResult }}
+            {{if {retryResult.error} }}
+                {{ $currentSize = 1 }}
+                <!-- {{retryResult.error}} -->
+                <div class="item no-results">Please refresh or search again</div>
+            {{else}}
+                {{if {retryResult.type} == 'carpark_details'}}
+                    {{ $myvariable = carpark}}
+                {{else}}
+                    {{ $myvariable = other}}
+                {{end-if}}
+                {{if {retryResult.type} != 'carpark_details' && {$showOnlyCarparks} == 'true' }}
+                    
+                {{else}}
+                    {{ $currentSize = {retryResult._num} }} 
+                    <a href="{{ truepath({retryResult.ObjectID}) }}" data-result-type="{{ retryResult.type }}">
+
+                        <div class="item {{ $myvariable }}">
+                            {{if {retryResult.type} == 'carpark_details'}}
+                                <div class="top-section">
+                                    <div class="search-img">
+                                        <div class="parking-tabs__icon-wrapper">
+                                            <div class="parking-tabs__icon"></div>
+                                        </div>
+                                    </div>
+                                    <h3>{{retryResult.title}}</h3>
+                                </div>
+                                <div class="desc">
+                                    {{ each carpark_details as carparkPage where carparkPage.zuid = '{retryResult.ObjectID}' }}
+                                    {{ each moq_carpark_details as carparkDetail where carparkDetail.zuid = '{carparkPage.moq_details}' }}
+                                        <p>{{carparkDetail.address_street}}, {{carparkDetail.address_suburb}}</p>
+                                    {{end-each}}
+                                    {{end-each}}
+                                </div>
+                                
+                            {{else }}      
+
+                                {{if {retryResult.imageZuid} != ''}}
+                                    <picture class="search-img">
+                                        <source srcset="{{retryResult.imageZuid.getImage()}}?width=55&crop=1:1" media="(max-width: 599px)" />
+                                        <source srcset="{{retryResult.imageZuid.getImage()}}?width=55&crop=1:1" media="(min-width: 600px)" />
+                                        <img src="{{retryResult.imageZuid.getImage()}}?width=55&crop=1:1" alt="{{retryResult.imageZuid.getImageTitle()}}" />
+                                    </picture>  
+                                {{end-if}}
+
+                            {{end-if}}
+                    
+                            <div class="search-widget__results-info">
+                                <h3>{{retryResult.title}}</h3>
+                                {{if {retryResult.description} != '' && {retryResult.type} != 'carpark_details'}}
+                                    <p>{{result.description}}</p>
+                                {{end-if}}
+                                {{if {retryResult.type} == 'carpark_details'}}
+                                    {{ each carpark_details as carparkPage where carparkPage.zuid = '{retryResult.ObjectID}' }}
+                                    {{ each moq_carpark_details as carparkDetail where carparkDetail.zuid = '{carparkPage.moq_details}' }}
+                                        <p>{{carparkDetail.address_street}}, {{carparkDetail.address_suburb}}</p>
+                                    {{end-each}}
+                                    {{end-each}}
+                                {{end-if}}
+                            </div>
+                        </div>      
+                    </a>
+
+                {{end-if}}
+            {{end-if}}
+        {{end-each}}
+    {{else}}
+        {{if {result.type} == 'carpark_details'}}
+            {{ $myvariable = carpark}}
+        {{else}}
+            {{ $myvariable = other}}
+        {{end-if}}
+        {{if {result.type} != 'carpark_details' && {$showOnlyCarparks} == 'true' }}
+            
+        {{else}}
+            {{ $currentSize = {result._num} }} 
+            <a href="{{ truepath({result.ObjectID}) }}" data-result-type="{{ result.type }}">
+
+                <div class="item {{ $myvariable }}">
+                    {{if {result.type} == 'carpark_details'}}
+                        <div class="top-section">
+                            <div class="search-img">
+                                <div class="parking-tabs__icon-wrapper">
+                                    <div class="parking-tabs__icon"></div>
+                                </div>
+                            </div>
+                            <h3>{{result.title}}</h3>
+                        </div>
+                        <div class="desc">
+                            {{ each carpark_details as carparkPage where carparkPage.zuid = '{result.ObjectID}' }}
+                            {{ each moq_carpark_details as carparkDetail where carparkDetail.zuid = '{carparkPage.moq_details}' }}
+                                <p>{{carparkDetail.address_street}}, {{carparkDetail.address_suburb}}</p>
+                            {{end-each}}
+                            {{end-each}}
+                        </div>
+                        
+                    {{else }}      
+
+                        {{if {result.imageZuid} != ''}}
+                            <picture class="search-img">
+                                <source srcset="{{result.imageZuid.getImage()}}?width=55&crop=1:1" media="(max-width: 599px)" />
+                                <source srcset="{{result.imageZuid.getImage()}}?width=55&crop=1:1" media="(min-width: 600px)" />
+                                <img src="{{result.imageZuid.getImage()}}?width=55&crop=1:1" alt="{{result.imageZuid.getImageTitle()}}" />
+                            </picture>  
+                        {{end-if}}
+
+                    {{end-if}}
+            
+                    <div class="search-widget__results-info">
+                        <h3>{{result.title}}</h3>
+                        {{if {result.description} != '' && {result.type} != 'carpark_details'}}
+                            <p>{{result.description}}</p>
+                        {{end-if}}
+                        {{if {result.type} == 'carpark_details'}}
+                            {{ each carpark_details as carparkPage where carparkPage.zuid = '{result.ObjectID}' }}
+                            {{ each moq_carpark_details as carparkDetail where carparkDetail.zuid = '{carparkPage.moq_details}' }}
+                                <p>{{carparkDetail.address_street}}, {{carparkDetail.address_suburb}}</p>
+                            {{end-each}}
+                            {{end-each}}
+                        {{end-if}}
+                    </div>
+                </div>      
+            </a>
+
+        {{end-if}}
+    {{end-if}}
+{{end-each}}
+
+{{ if {$currentSize} == 0 }}
+    {{ if {$showOnlyCarparks} == 'true' }}
+        <div class="item no-results">No car parks found in area</div>
+    {{else}} 
+        <div class="item no-results">No results found</div> 
+    {{end-if}}
+{{end-if}}
+

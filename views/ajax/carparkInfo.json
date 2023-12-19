@@ -1,0 +1,46 @@
+{{ $carparkGuid = {get_var.id} }}
+{{ $bookingPercentage = {get_var.bookingPercentage} }}
+{{ each moq_carpark_details as carparkDetail where carparkDetail.moqid = '{$carparkGuid}' sort by carparkDetail.date_modified desc limit 1 }}
+{
+   "address_street": "{{carparkDetail.address_street}}",
+   "suburb": "{{carparkDetail.address_suburb}}",
+   "latitude": "{{carparkDetail.latitude}}",
+   "longitude": "{{carparkDetail.longitude}}",
+   "timezoneLocationCountry": "{{carparkDetail.address_country}}",
+   "timezoneLocationState": "{{carparkDetail.address_state}}",
+   "timezoneId": "{{carparkDetail.time_zone_id}}",
+   "name": "{{carparkDetail.name}}",
+   "entry": "{{carparkDetail.entry_street}}",
+   "entrydetails":"{{carparkDetail.entry_instructions.escapeForJs()}}",
+   "exitdetails":"{{carparkDetail.exit_instructions.escapeForJs()}}",
+   "generaldetails":"{{ carparkDetail.general_instructions.escapeForJs() }}",
+   "bookingFee": "{{carparkDetail.booking_fee}}",
+   "minBookingAmend": "{{carparkDetail.min_booking_amend}}", 
+   "entrances": [
+      {{ each moq_entrance as entrance where find_in_set(entrance.zuid, '{carparkDetail.entrances}') }}  
+      {
+         "name": "{{entrance.name.escapeForJs()}}",
+         "description": "{{entrance.description.escapeForJs()}}",
+         "latitude": "{{entrance.latitude}}",
+         "longitude": "{{entrance.longitude}}",
+         "moqid": "{{entrance.moqid}}",
+         "image": "{{entrance.image.getImage()}}"
+      }
+        {{ if {entrance._num} != {entrance._length} }}, {{ end-if }}
+      {{ end-each }}  
+     ]
+   {{ each availability_messages as message where message.min <= '{$bookingPercentage}' and message.max > '{$bookingPercentage}'}}   
+      ,"availabilityMessage":{
+         "text":"{{message.messagetext}}",
+         "backgroundColor": "{{message.background_colour}}",
+         "color": "{{message.text_colour}}"            
+      }
+   {{ end-each  }}        
+   {{ each carpark_details as carparkPage where carparkPage.moq_details = '{carparkDetail.zuid}' limit 1 }}
+      ,"zuid":"{{carparkPage.zuid}}",
+      "url":"{{carparkPage.getUrl()}}",
+      "title": "{{carparkPage.seo_meta_title}}",
+      "image": "{{carparkPage.carpark_image.getImage()}}"
+   {{ end-each  }}        
+  }
+{{ end-each }}

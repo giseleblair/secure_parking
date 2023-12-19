@@ -1,0 +1,3 @@
+{{ each dictionary_item as item }}
+{{item.key}},{{item.value}}
+{{ end-each }}

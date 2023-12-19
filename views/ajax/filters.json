@@ -1,0 +1,10 @@
+ [
+     {{ each moq_service_setting as filters }}
+                {{ each moq_service as service where find_in_set(service.zuid, '{filters.moq_services}') order by service.sort ASC }}  
+    {
+        "serviceName":"{{ service.name }}",
+        "serviceMOQId":"{{ service.moqid }}"
+    }{{ if {service._num} != {service._length} }}, {{ end-if }}
+                {{ end-each }}
+            {{ end-each }}
+ ]

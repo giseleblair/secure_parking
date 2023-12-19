@@ -1,0 +1,49 @@
+{{ $carparkGuid = {get_var.id} }}
+
+
+{{ each moq_carpark_details as carparkDetail where carparkDetail.moqid = '{$carparkGuid}' sort by carparkDetail.date_modified desc limit 1 }}
+  {      
+     "address_street": "{{carparkDetail.address_street}}",
+     "name": "{{carparkDetail.name}}",
+     "territories": [
+           (**
+           {{ each moq_territory as territory where find_in_set(territory.zuid, '{carparkDetail.territories}') }}
+              {
+                {{ $territoryId = {territory.zuid} }}
+                "territoryId": "{{ territory.moqid }}",
+                "territoryName": "{{ territory.name }}",
+                "events": [
+                    {{ each moq_event as event where find_in_set('{$territoryId}', event.territories) }}
+                      {{ if {event._num} != 1 }}, {{ end-if }}
+
+                      {
+                        "eventName": "{{ event.name }}",
+                        "event-moq-id": "{{ event.moqid}}",
+                        "startdate": "{{ event.startdate }}",
+                        "enddate": "{{ event.enddate }}",
+                        "pages": [
+                        {{ each event_display as eventDisplay where '{event.zuid}' = eventDisplay.linked_moq_event }}                         
+                          {{ if {eventDisplay._num} != 1 }}, {{ end-if }}
+                          {{ each offer_item as offerItem where find_in_set('{eventDisplay.zuid}', offerItem.event_from_moq) }}
+                              {
+                                    "pageZuid": "{{ offerItem.zuid }}", 
+                                    "eventTitle": "{{ offerItem.title }}",
+                                    "eventImg": "{{ offerItem.deal_image.getImage()}}",
+                                    "eventUrl": "{{ offerItem.getUrl()}}"
+                              }
+                        
+                            {{ if {offerItem._num} != {offerItem._length} }}, {{ end-if }}
+                          {{ end-each }}
+                      {{ end-each }}
+                    ]
+                    }
+                {{ end-each }}
+             ]
+            }
+            {{ if {territory._num} != {territory._length} }}, {{ end-if }}
+            {{ end-each }}
+            **)
+      ]
+    }
+{{ if {carparkDetail._num} != {carparkDetail._length} }}, {{ end-if }}
+{{ end-each }}

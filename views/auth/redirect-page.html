@@ -1,0 +1,31 @@
+<script src="https://alcdn.msauth.net/browser/2.13.1/js/msal-browser.js" integrity="sha384-7hwr87O1w6buPsX92CwuRaz/wQzachgOEq+iLHv0ESavynv6rbYwKImSl7wUW3wV" crossorigin="anonymous"></script>
+
+<script defer="false">
+    let myMSAL;
+    window.onload = function() {
+        let loginConfig = {
+            auth: {
+                clientId: '70c19d71-7f0e-4b03-82e8-97f393d6c03f',
+            authority: 'https://spb2cwebprdau.b2clogin.com/spb2cwebprdau.onmicrosoft.com/B2C_1_VoyagerSignUpSignIn',
+            knownAuthorities: ['spb2cwebprdau.b2clogin.com'],
+            },
+            cache: {
+                cacheLocation: 'localStorage',
+                storeAuthStateInCookie: false
+            }
+            
+        }
+        let loginRequest = {
+            scopes: ['openid'],
+            state: null,
+            navigateToLoginRequestUrl: false
+        }
+
+        const myMSAL = new msal.PublicClientApplication(loginConfig);
+        myMSAL.handleRedirectPromise().then((response) => {
+            console.log(response);
+        }).catch((error) => {
+            console.log(error);
+        });
+    }
+</script>

@@ -1,0 +1,20 @@
+<div>
+    
+{{ each api.json.get(https://voyagerprod.zesty.dev/__DEV_ONLY/territories.json?territory=7-b4d8b8ba9b-3198j0) as territory }}
+    {{if {territory.error} }}
+        ERROR
+    {{end-if}}
+    {{territory}}
+    {{territory.name}}<br/>
+    (** 
+    Also tried looping through products, and using syntax similar to https://www.zesty.io/docs/parsley/tour/   
+        iterating-through-an-array-of-objects-with-an-array-in-a-stored-json/ but no joy
+    {{ each {territory.products.data} as product }}
+        {{product.type}}<br/>
+    {{/each}} 
+    {{ each {territory.json(products).data} as product }}
+        {{product.type}}<br/>
+    {{/each}} 
+    **)
+{{/each}}
+</div>

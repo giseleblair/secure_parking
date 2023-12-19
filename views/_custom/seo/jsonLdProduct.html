@@ -1,0 +1,97 @@
+{{ each moq_carpark_details as carparkDetail where carparkDetail.zuid = '{this.moq_details}' }}
+{{$bookingFee = {carparkDetail.booking_fee} }}
+<script type="application/ld+json">{ 
+  "@context": "https://schema.org/",
+  "@type": "ParkingFacility",
+  "brand":"Secure Parking",
+  "name": "{{this.seo_meta_title}}",
+  "description": "{{this.seo_meta_description}}",
+  {{ if  {this.carpark_image.getImage()} != "" }} 
+  "image":"{{this.carpark_image.getImage()}}",
+  {{ end-if}}
+  "openingHours":["Mo {{carparkDetail.monday_opening_hours}}-{{carparkDetail.monday_closing_hours}}", "Tu {{carparkDetail.tuesday_opening_hours}}-{{carparkDetail.tuesday_closing_hours}}", "We {{carparkDetail.wednesday_opening_hours}}-{{carparkDetail.wednesday_closing_hours}}", "Th {{carparkDetail.thursday_opening_hours}}-{{carparkDetail.thursday_closing_hours}}", "Fr {{carparkDetail.friday_opening_hours}}-{{carparkDetail.friday_closing_hours}}", "Sa {{carparkDetail.saturday_opening_hours}}-{{carparkDetail.saturday_closing_hours}}", "Su {{carparkDetail.sunday_opening_hours}}-{{carparkDetail.sunday_closing_hours}}"],
+  "address":{
+    "@type": "PostalAddress",
+    "addressLocality": "{{carparkDetail.address_suburb}}",
+    "addressRegion": "{{carparkDetail.address_state}}",
+    "streetAddress": "{{carparkDetail.address_street}}",
+    "postalCode": "{{carparkDetail.address_postcode}}",
+    "addressCountry":"{{carparkDetail.address_country}}"
+  },
+  "telephone":"{{globals.phone}}",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Parking products",
+      "itemListElement": [
+      {{ each moq_carpark_details as carparkDetail where carparkDetail.zuid = '{this.moq_details}' }}
+        {{ each moq_product_details as product where find_in_set(product.zuid, '{carparkDetail.products}') }}{{$lowPrice = 100}}{{$highPrice = 0}}  
+    {{$productName = {product.name} }}
+       
+		{{ if {product._num} != 1 }}, {{ end-if }} 
+      {
+        "@type": "Offer",
+        "itemOffered": {
+        "@type": "Product",
+        "name": "{{$productName}}",
+        {{ if  {this.carpark_image.getImage()} != "" }} 
+        "image": [
+          "{{this.carpark_image.getImage()}}"
+        ],
+         {{ end-if}}
+        "description": "{{$productDescription}}",
+        "identifier": "{{this.seo_meta_title}}, {{$productName}}",
+        "sku": "{{this.seo_meta_title}}, {{$productName}}",
+        "brand": {
+          "@type": "Brand",
+          "name": "{{this.seo_meta_title}}"
+        }
+			{{ each moq_rate_details as rate where find_in_set(rate.zuid, '{product.rates}') }}
+        {{$offerCount = 0 }}
+				{{if {instance.date(Y-m-d H:i:s)} > {rate.valid_from.date(Y-m-d H:i:s)} && {instance.date(Y-m-d H:i:s)} < {rate.valid_to.date(Y-m-d H:i:s)} }}
+				{{ each moq_configuration_details as config where find_in_set(config.zuid, '{rate.configurations}') }}
+					{{ each moq_tier_details as tier where find_in_set(tier.zuid, '{config.tiers}') }}
+						{{ if  {tier.pre_book_rate} != -1 }} 
+							{{ $prebookPlusFee = {math( {tier.pre_book_rate} + {$bookingFee} )} }}
+							{{$offerCount = {math( {$offerCount} + 1 )} }}
+            {{ end-if}}
+            {{ if  {tier.drive_up_rate} != -1 }} 
+	            {{$offerCount = {math( {$offerCount} + 1 )} }}            
+            {{ end-if }}
+						{{ if {$prebookPlusFee} > {$highPrice} }}{{ $highPrice = {$prebookPlusFee} }} {{ end-if }} 
+						{{ if {tier.drive_up_rate} > {$highPrice} }}{{ $highPrice = {tier.drive_up_rate} }}{{ end-if }}
+						{{ if {$lowPrice} > {$prebookPlusFee} && {tier.pre_book_rate} != -1 }}{{ $lowPrice = {$prebookPlusFee} }}{{ end-if }}
+						{{ if {$lowPrice} > {tier.drive_up_rate} && {tier.drive_up_rate} !=-1 }}{{ $lowPrice = {tier.drive_up_rate} }}{{ end-if }}
+					{{ end-each }} 
+				{{ end-each }}
+         {{if {$offerCount} == 1}}
+          {{ if {$lowPrice} != -1 }}
+          ,"offers": {
+            "@type": "Offer",
+            "price": "{{$lowPrice}}",
+            "priceCurrency": "AUD"
+          }
+          {{ end-if }}
+        {{ else }}
+          {{ if {$lowPrice} != -1 && {$highPrice} != -1}}
+            ,"offers": {
+              "@type": "AggregateOffer",
+              "offerCount": "{{$offerCount}}",
+              "lowPrice": "{{$lowPrice}}",
+              "highPrice": "{{$highPrice}}",
+              "priceCurrency": "AUD"
+            }
+			  {{end-if}}
+			{{end-if}}
+				{{ end-if }}			
+       
+			{{ end-each }}
+		  }
+		}
+    
+        {{ end-each }} 
+	{{ end-each }} 
+    ]
+  }
+}
+</script>
+{{ end-each }}

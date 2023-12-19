@@ -1,0 +1,17 @@
+[
+    {{each offer_item as offer limit 80 }}
+    {
+        "title":"{{offer.seo_meta_title}}",
+        "keywords":"{{offer.seo_meta_keywords}}",
+        "description":"{{offer.seo_meta_description}}",
+        "imageZuid":"{{offer.deal_image}}",
+        "type":"offer",
+        "content": {{offer.toJSON(1,false)}},
+        "objectID": "{{offer.zuid}}",
+        "templateZuid": "{{$offer_zuid}}"
+    }
+    {{ if {offer._length} != {offer._num} }}
+    ,
+    {{end-if}}
+    {{end-each}}
+]

@@ -1,0 +1,10 @@
+{{ $territoryId = {get_var.territory} }}
+[
+{{ each moq_carpark_details as territory_carpark where find_in_set('{$territoryId}', territory_carpark.territories) limit 5 }}  
+    {{ territory_carpark.toJSON(5,false) }}
+    {{territory_carpark._arraycomma}}
+{{ /each }}
+]
+
+
+
